@@ -1,0 +1,1135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 7
+Title "Sapphire Mini"
+Date ""
+Rev ""
+Comp "Southern Methodist Univ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5E41CA32
+P 1000 2550
+AR Path="/5E41CA32" Ref="J?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CA32" Ref="J201"  Part="1" 
+F 0 "J201" H 1108 2731 50  0000 C CNN
+F 1 "JST" H 1108 2640 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 1000 2550 50  0001 C CNN
+F 3 "~" H 1000 2550 50  0001 C CNN
+F 4 "0.58" H 1000 2550 50  0001 C CNN "DigiKey Price"
+F 5 "JST S2B-PH-SM4-TB(LF)(SN)" H 1000 2550 50  0001 C CNN "MPN"
+F 6 "JST" H 1000 2550 50  0001 C CNN "Manufacturer"
+F 7 "1" H 1000 2550 50  0001 C CNN "Populate"
+F 8 "JST S2B-PH-SM4-TB(LF)(SN)" H 1000 2550 50  0001 C CNN "MacroFab_PN"
+F 9 "455-1749-1-ND" H 1000 2550 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 1000 2550 50  0001 C CNN "Distributor"
+F 11 "455-1749-1-ND" H 1000 2550 50  0001 C CNN "DPN"
+F 12 "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)" H 1000 2550 50  0001 C CNN "Description"
+F 13 "120" H 1000 2550 50  0001 C CNN "OnHand"
+F 14 "MiniReel" H 1000 2550 50  0001 C CNN "Status"
+	1    1000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E41CA38
+P 1250 3400
+AR Path="/5E41CA38" Ref="#PWR?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CA38" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 1250 3150 50  0001 C CNN
+F 1 "GND" H 1255 3227 50  0000 C CNN
+F 2 "" H 1250 3400 50  0001 C CNN
+F 3 "" H 1250 3400 50  0001 C CNN
+	1    1250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2650 1250 2700
+$Comp
+L Device:C_Small C?
+U 1 1 5E41CA6C
+P 6650 3550
+AR Path="/5E41CA6C" Ref="C?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CA6C" Ref="C205"  Part="1" 
+F 0 "C205" H 6742 3596 50  0000 L CNN
+F 1 "22uF" H 6742 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6650 3550 50  0001 C CNN
+F 3 "~" H 6650 3550 50  0001 C CNN
+F 4 "16" H 6900 3400 50  0001 C CNN "Voltage"
+F 5 "CGA5L1X5R1C226M160AC" H 6650 3550 50  0001 C CNN "MPN"
+F 6 "0.42" H 6650 3550 50  0001 C CNN "DigiKey Price"
+F 7 "TDK" H 6650 3550 50  0001 C CNN "Manufacturer"
+F 8 "16 volt" H 6900 3400 50  0000 C CNN "Voltage Rating (DC)"
+F 9 "1" H 6650 3550 50  0001 C CNN "Populate"
+F 10 "CC1206ZKY5V7BB226" H 6650 3550 50  0001 C CNN "MacroFab_PN"
+F 11 "445-12847-1-ND" H 6650 3550 50  0001 C CNN "Digi-Key_PN"
+F 12 "20%" H 6650 3550 50  0001 C CNN "Tolerance"
+F 13 "Digikey" H 6650 3550 50  0001 C CNN "Distributor"
+F 14 "1276-2728-1-ND" H 6650 3550 50  0001 C CNN "DPN"
+F 15 "22 µF ±20% 16V Ceramic Capacitor X5R 1206" H 6650 3550 50  0001 C CNN "Description"
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2700 1250 3400
+$Comp
+L Transistor_BJT:BC857BS Q?
+U 2 1 5E41CAC8
+P 2350 3150
+AR Path="/5E41CAC8" Ref="Q?"  Part="2" 
+AR Path="/5E3FE3DD/5E41CAC8" Ref="Q201"  Part="2" 
+F 0 "Q201" H 2541 3104 50  0000 L CNN
+F 1 "BC857BS" H 2541 3195 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2550 3250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 2350 3150 50  0001 C CNN
+F 4 "0.24" H 2350 3150 50  0001 C CNN "DigiKey Price"
+F 5 "BC857BDW1T1G" H 2350 3150 50  0001 C CNN "MPN"
+F 6 "On Semiconductor" H 2350 3150 50  0001 C CNN "Manufacturer"
+F 7 "1" H 2350 3150 50  0001 C CNN "Populate"
+F 8 "BC857BDW1T1G" H 2350 3150 50  0001 C CNN "MacroFab_PN"
+F 9 "SBC857BDW1T1GOSCT-ND" H 2350 3150 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 2350 3150 50  0001 C CNN "Distributor"
+F 11 "SBC857BDW1T1GOSCT-ND" H 2350 3150 50  0001 C CNN "DPN"
+F 12 "Bipolar (BJT) Transistor Array 2 PNP (Dual) 45V 100mA 100MHz 380mW Surface Mount SC-88/SC70-6/SOT-363" H 2350 3150 50  0001 C CNN "Description"
+F 13 "110" H 2350 3150 50  0001 C CNN "OnHand"
+F 14 "MiniReel" H 2350 3150 50  0001 C CNN "Status"
+	2    2350 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC857BS Q?
+U 1 1 5E41CACE
+P 3150 3150
+AR Path="/5E41CACE" Ref="Q?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CACE" Ref="Q201"  Part="1" 
+F 0 "Q201" H 3340 3104 50  0000 L CNN
+F 1 "BC857BS" H 3340 3195 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3350 3250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 3150 3150 50  0001 C CNN
+F 4 "0.24" H 3150 3150 50  0001 C CNN "DigiKey Price"
+F 5 "BC857BDW1T1G" H 3150 3150 50  0001 C CNN "MPN"
+F 6 "On Semiconductor" H 3150 3150 50  0001 C CNN "Manufacturer"
+F 7 "1" H 3150 3150 50  0001 C CNN "Populate"
+F 8 "BC857BDW1T1G" H 3150 3150 50  0001 C CNN "MacroFab_PN"
+F 9 "SBC857BDW1T1GOSCT-ND" H 3150 3150 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 3150 3150 50  0001 C CNN "Distributor"
+F 11 "SBC857BDW1T1GOSCT-ND" H 3150 3150 50  0001 C CNN "DPN"
+F 12 "Bipolar (BJT) Transistor Array 2 PNP (Dual) 45V 100mA 100MHz 380mW Surface Mount SC-88/SC70-6/SOT-363" H 3150 3150 50  0001 C CNN "Description"
+F 13 "110" H 3150 3150 50  0001 C CNN "OnHand"
+F 14 "MiniReel" H 3150 3150 50  0001 C CNN "Status"
+	1    3150 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L SapphineMinimal-rescue:IRLML6402TRPBF-dk_Transistors-FETs-MOSFETs-Single Q?
+U 1 1 5E41CADD
+P 2700 2550
+AR Path="/5E41CADD" Ref="Q?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CADD" Ref="Q202"  Part="1" 
+F 0 "Q202" V 2967 2550 60  0000 C CNN
+F 1 "IRLML6402TRPBF" V 2861 2550 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 2750 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2900 2850 60  0001 L CNN
+F 4 "FDN302PCT-ND " H 2900 2950 60  0001 L CNN "Digi-Key_PN"
+F 5 "FDN302P" H 2900 3050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2900 3150 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 2900 3250 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2900 3350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6402TRPBF/IRLML6402PBFCT-ND/812500" H 2900 3450 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 20V 3.7A SOT-23" H 2900 3550 60  0001 L CNN "Description"
+F 11 "On Semiconductor" H 2900 3650 60  0001 L CNN "Manufacturer"
+F 12 "" H 2900 3750 60  0001 L CNN "Status"
+F 13 "0.37" H 2700 2550 50  0001 C CNN "DigiKey Price"
+F 14 "1" H 2700 2550 50  0001 C CNN "Populate"
+F 15 "FDN302P" H 2700 2550 50  0001 C CNN "MacroFab_PN"
+F 16 "Digikey" H 2700 2550 50  0001 C CNN "Distributor"
+F 17 "FDN302PCT-ND " H 2700 2550 50  0001 C CNN "DPN"
+	1    2700 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 3150 2650 3150
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E41CAE4
+P 2250 3550
+AR Path="/5E41CAE4" Ref="R?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CAE4" Ref="R204"  Part="1" 
+F 0 "R204" H 2318 3596 50  0000 L CNN
+F 1 "100K" H 2318 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2250 3550 50  0001 C CNN
+F 3 "~" H 2250 3550 50  0001 C CNN
+F 4 "CRCW0603100KFKEAC" H 2250 3550 50  0001 C CNN "MPN"
+F 5 "0.05" H 2250 3550 50  0001 C CNN "DigiKey Price"
+F 6 "Vishay" H 2250 3550 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 2250 3550 50  0001 C CNN "Tolerance"
+F 8 "1" H 2250 3550 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-100K" H 2250 3550 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3950-1-ND" H 2250 3550 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 2250 3550 50  0001 C CNN "Distributor"
+F 12 "541-3950-1-ND" H 2250 3550 50  0001 C CNN "DPN"
+F 13 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 2250 3550 50  0001 C CNN "Description"
+	1    2250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E41CAEA
+P 3250 3550
+AR Path="/5E41CAEA" Ref="R?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CAEA" Ref="R205"  Part="1" 
+F 0 "R205" H 3318 3596 50  0000 L CNN
+F 1 "100K" H 3318 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 3550 50  0001 C CNN
+F 3 "~" H 3250 3550 50  0001 C CNN
+F 4 "CRCW0603100KFKEAC" H 3250 3550 50  0001 C CNN "MPN"
+F 5 "0.05" H 3250 3550 50  0001 C CNN "DigiKey Price"
+F 6 "Vishay" H 3250 3550 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 3250 3550 50  0001 C CNN "Tolerance"
+F 8 "1" H 3250 3550 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-100K" H 3250 3550 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3950-1-ND" H 3250 3550 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 3250 3550 50  0001 C CNN "Distributor"
+F 12 "541-3950-1-ND" H 3250 3550 50  0001 C CNN "DPN"
+F 13 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 3250 3550 50  0001 C CNN "Description"
+	1    3250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E41CAF0
+P 2250 3700
+AR Path="/5E41CAF0" Ref="#PWR?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CAF0" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 2250 3450 50  0001 C CNN
+F 1 "GND" H 2255 3527 50  0000 C CNN
+F 2 "" H 2250 3700 50  0001 C CNN
+F 3 "" H 2250 3700 50  0001 C CNN
+	1    2250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E41CAF6
+P 3250 4300
+AR Path="/5E41CAF6" Ref="#PWR?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CAF6" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 3250 4050 50  0001 C CNN
+F 1 "GND" H 3255 4127 50  0000 C CNN
+F 2 "" H 3250 4300 50  0001 C CNN
+F 3 "" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2550 3250 2550
+Wire Wire Line
+	2250 2950 2250 2550
+Wire Wire Line
+	2250 2550 2500 2550
+Wire Wire Line
+	3250 2950 3250 2550
+Wire Wire Line
+	2800 2850 2800 3350
+Wire Wire Line
+	2800 3350 2850 3400
+Wire Wire Line
+	2850 3400 3250 3400
+Wire Wire Line
+	3250 3400 3250 3350
+Wire Wire Line
+	3250 3450 3250 3400
+Connection ~ 3250 3400
+Wire Wire Line
+	2250 3450 2250 3400
+Wire Wire Line
+	2250 3400 2600 3400
+Wire Wire Line
+	2600 3400 2650 3350
+Wire Wire Line
+	2650 3350 2650 3150
+Connection ~ 2250 3400
+Wire Wire Line
+	2250 3400 2250 3350
+Connection ~ 2650 3150
+Wire Wire Line
+	2650 3150 2950 3150
+Wire Wire Line
+	2250 3700 2250 3650
+$Comp
+L Diode:MBR0580 D?
+U 1 1 5E41CB15
+P 3500 2000
+AR Path="/5E41CB15" Ref="D?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CB15" Ref="D201"  Part="1" 
+F 0 "D201" V 3546 1921 50  0000 R CNN
+F 1 "MBR180" V 3455 1921 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3500 1825 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 3500 2000 50  0001 C CNN
+F 4 "0.29" H 3500 2000 50  0001 C CNN "DigiKey Price"
+F 5 "MBR180S1-7" H 3500 2000 50  0001 C CNN "MPN"
+F 6 "Diodes Inc" H 3500 2000 50  0001 C CNN "Manufacturer"
+F 7 "1" H 3500 2000 50  0001 C CNN "Populate"
+F 8 "MBR180S1-7" H 3500 2000 50  0001 C CNN "MacroFab_PN"
+F 9 "MBR180S1-7DICT-ND " H 3500 2000 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 3500 2000 50  0001 C CNN "Distributor"
+F 11 "MBR180S1-7DICT-ND " H 3500 2000 50  0001 C CNN "DPN"
+F 12 "Diode Schottky 80 V 1A Surface Mount SOD-123" H 3500 2000 50  0001 C CNN "Description"
+F 13 "110" H 3500 2000 50  0001 C CNN "OnHand"
+F 14 "MiniReel" H 3500 2000 50  0001 C CNN "Status"
+	1    3500 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 1850 3500 1700
+Wire Wire Line
+	3500 1700 3550 1650
+Wire Wire Line
+	3550 1650 4000 1650
+Text Label 3550 1650 0    50   ~ 0
+VUSB
+$Comp
+L Device:C_Small C?
+U 1 1 5E41CB27
+P 4350 1900
+AR Path="/5E41CB27" Ref="C?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CB27" Ref="C202"  Part="1" 
+F 0 "C202" H 4442 1946 50  0000 L CNN
+F 1 "100nF" H 4442 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4350 1900 50  0001 C CNN
+F 3 "~" H 4350 1900 50  0001 C CNN
+F 4 "0.10" H 4350 1900 50  0001 C CNN "DigiKey Price"
+F 5 "CL10B104KA8NNNC" H 4350 1900 50  0001 C CNN "MPN"
+F 6 "Samsung" H 4350 1900 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 4350 1900 50  0001 C CNN "Tolerance"
+F 8 "25" H 4350 1900 50  0001 C CNN "Voltage"
+F 9 "25 volt" H 4350 1900 50  0001 C CNN "Voltage Rating (DC)"
+F 10 "1" H 4350 1900 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0603-0.1uF" H 4350 1900 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-1006-1-ND " H 4350 1900 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 4350 1900 50  0001 C CNN "Distributor"
+F 14 "1276-1006-1-ND " H 4350 1900 50  0001 C CNN "DPN"
+F 15 "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4350 1900 50  0001 C CNN "Description"
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1650 4000 1800
+Connection ~ 4000 1650
+Wire Wire Line
+	4000 1650 4350 1650
+$Comp
+L power:GND #PWR?
+U 1 1 5E41CB30
+P 4000 2050
+AR Path="/5E41CB30" Ref="#PWR?"  Part="1" 
+AR Path="/5E3FE3DD/5E41CB30" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 4000 1800 50  0001 C CNN
+F 1 "GND" H 4005 1877 50  0000 C CNN
+F 2 "" H 4000 2050 50  0001 C CNN
+F 3 "" H 4000 2050 50  0001 C CNN
+	1    4000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1800 4350 1650
+Connection ~ 4350 1650
+Wire Wire Line
+	4350 2050 4350 2000
+Wire Wire Line
+	4000 2050 4000 2000
+Text HLabel 1350 2250 0    50   Output ~ 0
+VBAT
+Wire Wire Line
+	1350 2250 1400 2250
+Wire Wire Line
+	1400 2250 1450 2300
+Wire Wire Line
+	1450 2300 1450 2550
+Text HLabel 5300 1650 2    50   Input ~ 0
+VUSB
+$Comp
+L power:GND #PWR?
+U 1 1 5E6366B4
+P 4350 2050
+AR Path="/5E6366B4" Ref="#PWR?"  Part="1" 
+AR Path="/5E3FE3DD/5E6366B4" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 4350 1800 50  0001 C CNN
+F 1 "GND" H 4355 1877 50  0000 C CNN
+F 2 "" H 4350 2050 50  0001 C CNN
+F 3 "" H 4350 2050 50  0001 C CNN
+	1    4350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E638642
+P 3250 4100
+AR Path="/5E638642" Ref="R?"  Part="1" 
+AR Path="/5E3FE3DD/5E638642" Ref="R206"  Part="1" 
+F 0 "R206" H 3318 4146 50  0000 L CNN
+F 1 "47K5" H 3318 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 4100 50  0001 C CNN
+F 3 "~" H 3250 4100 50  0001 C CNN
+F 4 "0.10" H 3250 4100 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 3250 4100 50  0001 C CNN "Manufacturer"
+F 6 "CRCW060347K5FKEAC" H 3250 4100 50  0001 C CNN "MPN"
+F 7 "1%" H 3250 4100 50  0001 C CNN "Tolerance"
+F 8 "1" H 3250 4100 50  0001 C CNN "Populate"
+F 9 "CRCW060347K5FKEAC" H 3250 4100 50  0001 C CNN "MacroFab_PN"
+F 10 "541-4050-1-ND" H 3250 4100 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 3250 4100 50  0001 C CNN "Distributor"
+F 12 "541-4050-1-ND" H 3250 4100 50  0001 C CNN "DPN"
+F 13 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 3250 4100 50  0001 C CNN "Description"
+	1    3250 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4200 3250 4300
+Wire Wire Line
+	3250 3650 3250 4000
+$Comp
+L power:PWR_FLAG #FLG0201
+U 1 1 5E778B32
+P 3350 2300
+F 0 "#FLG0201" H 3350 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 2450 50  0000 C CNN
+F 2 "" H 3350 2300 50  0001 C CNN
+F 3 "~" H 3350 2300 50  0001 C CNN
+	1    3350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1650 5300 1650
+Wire Wire Line
+	3350 2300 3350 2550
+Text Notes 900  750  0    50   ~ 0
+Nominal input voltage 6 Volts with tolerance to 12 volts\n
+Text Notes 3150 1250 0    50   ~ 0
+Sub FDN302P for IRLML6402TRPBF
+$Comp
+L Device:C_Small C?
+U 1 1 5F9061A3
+P 4100 2750
+AR Path="/5F9061A3" Ref="C?"  Part="1" 
+AR Path="/5E3FE3DD/5F9061A3" Ref="C206"  Part="1" 
+F 0 "C206" H 4192 2796 50  0000 L CNN
+F 1 "10uF" H 4192 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4100 2750 50  0001 C CNN
+F 3 "~" H 4100 2750 50  0001 C CNN
+F 4 "16 volt" H 4300 2600 50  0001 C CNN "Voltage Rating (DC)"
+F 5 "" H 4100 2750 50  0001 C CNN "DigiKey Price"
+F 6 "GRM21BR61E106MA73L" H 4100 2750 50  0001 C CNN "MPN"
+F 7 "MuRata" H 4100 2750 50  0001 C CNN "Manufacturer"
+F 8 "" H 4100 2750 50  0001 C CNN "Tolerance"
+F 9 "16" H 4250 2600 50  0001 C CNN "Voltage"
+F 10 "1" H 4100 2750 50  0001 C CNN "Populate"
+F 11 "" H 4100 2750 50  0001 C CNN "MacroFab_PN"
+F 12 "490-10748-1-ND" H 4100 2750 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 4100 2750 50  0001 C CNN "Distributor"
+F 14 "490-10748-1-ND" H 4100 2750 50  0001 C CNN "DPN"
+F 15 "10 µF ±20% 25V Ceramic Capacitor X5R 0805" H 4100 2750 50  0001 C CNN "Description"
+	1    4100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F9072CC
+P 4000 1900
+AR Path="/5F9072CC" Ref="C?"  Part="1" 
+AR Path="/5E3FE3DD/5F9072CC" Ref="C201"  Part="1" 
+F 0 "C201" H 4092 1946 50  0000 L CNN
+F 1 "10uF" H 4092 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 1900 50  0001 C CNN
+F 3 "~" H 4000 1900 50  0001 C CNN
+F 4 "25 volt" H 4200 1750 50  0001 C CNN "Voltage Rating (DC)"
+F 5 "" H 4000 1900 50  0001 C CNN "DigiKey Price"
+F 6 "GRM21BR61E106MA73L" H 4000 1900 50  0001 C CNN "MPN"
+F 7 "MuRata" H 4000 1900 50  0001 C CNN "Manufacturer"
+F 8 "" H 4000 1900 50  0001 C CNN "Tolerance"
+F 9 "25" H 4150 1750 50  0001 C CNN "Voltage"
+F 10 "1" H 4000 1900 50  0001 C CNN "Populate"
+F 11 "" H 4000 1900 50  0001 C CNN "MacroFab_PN"
+F 12 "490-10748-1-ND" H 4000 1900 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 4000 1900 50  0001 C CNN "Distributor"
+F 14 "490-10748-1-ND" H 4000 1900 50  0001 C CNN "DPN"
+F 15 "10 µF ±20% 25V Ceramic Capacitor X5R 0805" H 4000 1900 50  0001 C CNN "Description"
+	1    4000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:TPS62150 U201
+U 1 1 608AF025
+P 5200 3450
+F 0 "U201" H 5200 4131 50  0000 C CNN
+F 1 "TPS62150" H 5200 4040 50  0000 C CNN
+F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias" H 5350 3000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/TPS62150.pdf" H 5200 3450 50  0001 C CNN
+F 4 "Texas Instruments" H 5200 3450 50  0001 C CNN "Manufacturer"
+F 5 "296-30007-1-ND" H 5200 3450 50  0001 C CNN "DPN"
+F 6 "TPS62150RGTT" H 5200 3450 50  0001 C CNN "MPN"
+F 7 "1" H 5200 3450 50  0001 C CNN "Populate"
+F 8 "Buck Switching Regulator IC Positive Adjustable 0.9V 1 Output 1A 16-VFQFN Exposed Pad" H 5200 3450 50  0001 C CNN "Description"
+F 9 "296-30007-1-ND" H 5200 3450 50  0001 C CNN "Digi-Key_PN"
+F 10 "110" H 5200 3450 50  0001 C CNN "OnHand"
+F 11 "MiniReel" H 5200 3450 50  0001 C CNN "Status"
+F 12 "Digikey" H 5200 3450 50  0001 C CNN "Distributor"
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L201
+U 1 1 608AFBC4
+P 5900 3250
+F 0 "L201" V 6125 3250 50  0000 C CNN
+F 1 "2.2uH" V 6034 3250 50  0000 C CNN
+F 2 "SapphineMinimal:74439344022" H 5900 3250 50  0001 C CNN
+F 3 "~" H 5900 3250 50  0001 C CNN
+F 4 "732-10701-1-ND" H 5900 3250 50  0001 C CNN "DPN"
+F 5 "Wurth Elektonik" H 5900 3250 50  0001 C CNN "Manufacturer"
+F 6 "74439344022" H 5900 3250 50  0001 C CNN "MPN"
+F 7 "1" H 5900 3250 50  0001 C CNN "Populate"
+F 8 "Shielded Wirewound Inductor 10.5mOhm Nonstandar" H 5900 3250 50  0001 C CNN "Description"
+F 9 "732-10701-1-ND" H 5900 3250 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 5900 3250 50  0001 C CNN "Distributor"
+	1    5900 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C203
+U 1 1 608B2A23
+P 4350 3650
+F 0 "C203" H 4465 3696 50  0000 L CNN
+F 1 "390pF" H 4465 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 3500 50  0001 C CNN
+F 3 "~" H 4350 3650 50  0001 C CNN
+F 4 "CL10C391JB81PNC" H 4350 3650 50  0001 C CNN "MPN"
+F 5 "Samsung" H 4350 3650 50  0001 C CNN "Manufacturer"
+F 6 "1276-2284-1-ND" H 4350 3650 50  0001 C CNN "DPN"
+F 7 "1" H 4350 3650 50  0001 C CNN "Populate"
+F 8 "390 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603" H 4350 3650 50  0001 C CNN "Description"
+F 9 "1276-2284-1-ND" H 4350 3650 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 4350 3650 50  0001 C CNN "Distributor"
+	1    4350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R202
+U 1 1 608B3DB5
+P 5850 3550
+F 0 "R202" V 5645 3550 50  0000 C CNN
+F 1 "100K" V 5736 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5850 3550 50  0001 C CNN
+F 3 "~" H 5850 3550 50  0001 C CNN
+F 4 "541-3950-1-ND" H 5850 3550 50  0001 C CNN "DPN"
+F 5 "CRCW0603100KFKEAC" H 5850 3550 50  0001 C CNN "MPN"
+F 6 "Vishay" H 5850 3550 50  0001 C CNN "Manufacturer"
+F 7 "1" H 5850 3550 50  0001 C CNN "Populate"
+F 8 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 5850 3550 50  0001 C CNN "Description"
+F 9 "541-3950-1-ND" H 5850 3550 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 5850 3550 50  0001 C CNN "Distributor"
+	1    5850 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R203
+U 1 1 608B4E27
+P 6350 3400
+F 0 "R203" H 6418 3446 50  0000 L CNN
+F 1 "562K" H 6418 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 3400 50  0001 C CNN
+F 3 "~" H 6350 3400 50  0001 C CNN
+F 4 "541-562KHCT-ND" H 6350 3400 50  0001 C CNN "DPN"
+F 5 "CRCW0603562KFKEA" H 6350 3400 50  0001 C CNN "MPN"
+F 6 "1" H 6350 3400 50  0001 C CNN "Populate"
+F 7 "Vishay" H 6350 3400 50  0001 C CNN "Manufacturer"
+F 8 "562 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 " H 6350 3400 50  0001 C CNN "Description"
+F 9 "541-562KHCT-ND" H 6350 3400 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 6350 3400 50  0001 C CNN "Distributor"
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R207
+U 1 1 608B52B7
+P 6350 3850
+F 0 "R207" H 6418 3896 50  0000 L CNN
+F 1 "180K" H 6418 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 3850 50  0001 C CNN
+F 3 "~" H 6350 3850 50  0001 C CNN
+F 4 "CRCW0603180KFKEAC" H 6350 3850 50  0001 C CNN "MPN"
+F 5 "Vishay" H 6350 3850 50  0001 C CNN "Manufacturer"
+F 6 "541-5203-1-ND " H 6350 3850 50  0001 C CNN "DPN"
+F 7 "1" H 6350 3850 50  0001 C CNN "Populate"
+F 8 "180 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 6350 3850 50  0001 C CNN "Description"
+F 9 "541-5203-1-ND" H 6350 3850 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 6350 3850 50  0001 C CNN "Distributor"
+	1    6350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2950 5100 2550
+Wire Wire Line
+	5100 2550 5300 2550
+Wire Wire Line
+	5300 2550 5300 2950
+Wire Wire Line
+	5600 3250 5750 3250
+Wire Wire Line
+	6050 3250 6150 3250
+Wire Wire Line
+	6150 3250 6150 3450
+Wire Wire Line
+	6150 3450 5600 3450
+Wire Wire Line
+	5600 3550 5750 3550
+Wire Wire Line
+	5950 3550 6150 3550
+Wire Wire Line
+	6150 3550 6150 3450
+Connection ~ 6150 3450
+Wire Wire Line
+	6350 3500 6350 3650
+Wire Wire Line
+	5600 3650 6350 3650
+Connection ~ 6350 3650
+Wire Wire Line
+	6350 3650 6350 3750
+Wire Wire Line
+	6150 3250 6350 3250
+Wire Wire Line
+	6350 3250 6350 3300
+Connection ~ 6150 3250
+Wire Wire Line
+	6350 3250 6650 3250
+Wire Wire Line
+	6650 3250 6650 3450
+Connection ~ 6350 3250
+$Comp
+L power:GND #PWR0208
+U 1 1 608D63A1
+P 5300 4100
+F 0 "#PWR0208" H 5300 3850 50  0001 C CNN
+F 1 "GND" H 5305 3927 50  0000 C CNN
+F 2 "" H 5300 4100 50  0001 C CNN
+F 3 "" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3950 5100 4000
+Wire Wire Line
+	5100 4000 5200 4000
+Wire Wire Line
+	5300 4000 5300 4100
+Wire Wire Line
+	5300 3950 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	5200 3950 5200 4000
+Connection ~ 5200 4000
+Wire Wire Line
+	5200 4000 5300 4000
+$Comp
+L power:GND #PWR0209
+U 1 1 608DE88E
+P 6350 4100
+F 0 "#PWR0209" H 6350 3850 50  0001 C CNN
+F 1 "GND" H 6355 3927 50  0000 C CNN
+F 2 "" H 6350 4100 50  0001 C CNN
+F 3 "" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3950 6350 4100
+$Comp
+L power:GND #PWR0210
+U 1 1 608E1B1B
+P 6650 4100
+F 0 "#PWR0210" H 6650 3850 50  0001 C CNN
+F 1 "GND" H 6655 3927 50  0000 C CNN
+F 2 "" H 6650 4100 50  0001 C CNN
+F 3 "" H 6650 4100 50  0001 C CNN
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2550
+$Comp
+L power:GND #PWR0202
+U 1 1 608E8400
+P 4100 3000
+F 0 "#PWR0202" H 4100 2750 50  0001 C CNN
+F 1 "GND" H 4105 2827 50  0000 C CNN
+F 2 "" H 4100 3000 50  0001 C CNN
+F 3 "" H 4100 3000 50  0001 C CNN
+	1    4100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3500 4350 3350
+Wire Wire Line
+	4350 3350 4800 3350
+$Comp
+L power:GND #PWR0207
+U 1 1 608EEEE7
+P 4350 4100
+F 0 "#PWR0207" H 4350 3850 50  0001 C CNN
+F 1 "GND" H 4355 3927 50  0000 C CNN
+F 2 "" H 4350 4100 50  0001 C CNN
+F 3 "" H 4350 4100 50  0001 C CNN
+	1    4350 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4100 4350 3800
+$Comp
+L Device:R_Small_US R?
+U 1 1 608F2731
+P 4650 2950
+AR Path="/608F2731" Ref="R?"  Part="1" 
+AR Path="/5E3FE3DD/608F2731" Ref="R201"  Part="1" 
+F 0 "R201" V 4700 3050 50  0000 L CNN
+F 1 "100K" V 4600 3000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 2950 50  0001 C CNN
+F 3 "~" H 4650 2950 50  0001 C CNN
+F 4 "CRCW0603100KFKEAC" H 4650 2950 50  0001 C CNN "MPN"
+F 5 "0.05" H 4650 2950 50  0001 C CNN "DigiKey Price"
+F 6 "Vishay" H 4650 2950 50  0001 C CNN "Manufacturer"
+F 7 "5%" H 4650 2950 50  0001 C CNN "Tolerance"
+F 8 "1" H 4650 2950 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-100K" H 4650 2950 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3950-1-ND" H 4650 2950 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 4650 2950 50  0001 C CNN "Distributor"
+F 12 "541-3950-1-ND" H 4650 2950 50  0001 C CNN "DPN"
+F 13 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 4650 2950 50  0001 C CNN "Description"
+	1    4650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 4650 3250
+Wire Wire Line
+	4650 2850 4650 2550
+Connection ~ 4650 2550
+Wire Wire Line
+	4650 3050 4650 3250
+Wire Wire Line
+	4100 2550 4100 2650
+Wire Wire Line
+	4800 3550 4450 3550
+Text Label 4550 3550 0    50   ~ 0
+P3V3
+NoConn ~ 4800 3450
+Text Label 8850 2550 0    50   ~ 0
+PWR_IN
+Connection ~ 5300 2550
+Text HLabel 6750 3050 1    50   Output ~ 0
+P3V3
+Text Notes 3200 1000 0    50   ~ 0
+Based on TI WEBENCH design for buck 3.4-9V @ 200mA w/ 3.3V output. \n Efficiency near 90% even at low loads.  \nChoice based on parts availability\n
+Wire Wire Line
+	4100 2850 4100 3000
+Wire Wire Line
+	6650 3650 6650 4100
+$Comp
+L Device:R_Small_US R208
+U 1 1 609486BD
+P 3800 2550
+F 0 "R208" H 3732 2504 50  0000 R CNN
+F 1 "0.1" H 3732 2595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+F 4 "WSL0603R1000FEA" H 3800 2550 50  0001 C CNN "MPN"
+F 5 "Vishay" H 3800 2550 50  0001 C CNN "Manufacturer"
+F 6 "WSLJ-.1CT-ND" H 3800 2550 50  0001 C CNN "DPN"
+F 7 "1" H 3800 2550 50  0001 C CNN "Populate"
+F 8 "100 mOhms ±1% 0.1W, 1/10W Chip Resistor 0603 Current Sense," H 3800 2550 50  0001 C CNN "Description"
+F 9 "WSLJ-.1CT-ND" H 3800 2550 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 3800 2550 50  0001 C CNN "Distributor"
+	1    3800 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Analog_ADC:INA219AxD U202
+U 1 1 6094A0E9
+P 8750 4300
+F 0 "U202" H 8750 4881 50  0000 C CNN
+F 1 "INA219BIDR" H 8750 4790 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9550 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 9100 4200 50  0001 C CNN
+F 4 "296-27899-1-ND" H 8750 4300 50  0001 C CNN "DPN"
+F 5 "INA219BIDR" H 8750 4300 50  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 8750 4300 50  0001 C CNN "Manufacturer"
+F 7 "1" H 8750 4300 50  0001 C CNN "Populate"
+F 8 "Current Monitor Regulator High-Side 10mA 8-SOIC" H 8750 4300 50  0001 C CNN "Description"
+F 9 "296-27899-1-ND" H 8750 4300 50  0001 C CNN "Digi-Key_PN"
+F 10 "110" H 8750 4300 50  0001 C CNN "OnHand"
+F 11 "MiniReel" H 8750 4300 50  0001 C CNN "Status"
+F 12 "Digikey" H 8750 4300 50  0001 C CNN "Distributor"
+	1    8750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4200 8050 4200
+Wire Wire Line
+	8350 4400 8050 4400
+$Comp
+L power:GND #PWR0211
+U 1 1 6095242C
+P 8750 4850
+F 0 "#PWR0211" H 8750 4600 50  0001 C CNN
+F 1 "GND" H 8755 4677 50  0000 C CNN
+F 2 "" H 8750 4850 50  0001 C CNN
+F 3 "" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4700 8750 4850
+Wire Wire Line
+	9150 4400 9250 4400
+Wire Wire Line
+	9150 4500 9250 4500
+Wire Wire Line
+	9250 4500 9250 4400
+Wire Wire Line
+	9250 4500 9250 4850
+Connection ~ 9250 4500
+$Comp
+L power:GND #PWR0213
+U 1 1 60958F18
+P 9250 4850
+F 0 "#PWR0213" H 9250 4600 50  0001 C CNN
+F 1 "GND" H 9255 4677 50  0000 C CNN
+F 2 "" H 9250 4850 50  0001 C CNN
+F 3 "" H 9250 4850 50  0001 C CNN
+	1    9250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3900 8750 3050
+Wire Wire Line
+	8750 3050 9000 3050
+Text Label 9800 3050 0    50   ~ 0
+P3V3
+$Comp
+L Device:C_Small C?
+U 1 1 6095AE29
+P 9000 3350
+AR Path="/6095AE29" Ref="C?"  Part="1" 
+AR Path="/5E3FE3DD/6095AE29" Ref="C204"  Part="1" 
+F 0 "C204" H 9092 3396 50  0000 L CNN
+F 1 "100nF" H 9092 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 3350 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+F 4 "0.10" H 9000 3350 50  0001 C CNN "DigiKey Price"
+F 5 "CL10B104KA8NNNC" H 9000 3350 50  0001 C CNN "MPN"
+F 6 "Samsung" H 9000 3350 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 9000 3350 50  0001 C CNN "Tolerance"
+F 8 "25" H 9000 3350 50  0001 C CNN "Voltage"
+F 9 "25 volt" H 9000 3350 50  0001 C CNN "Voltage Rating (DC)"
+F 10 "1" H 9000 3350 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0603-0.1uF" H 9000 3350 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-1006-1-ND " H 9000 3350 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 9000 3350 50  0001 C CNN "Distributor"
+F 14 "1276-1006-1-ND " H 9000 3350 50  0001 C CNN "DPN"
+F 15 "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 9000 3350 50  0001 C CNN "Description"
+	1    9000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3250 9000 3050
+Connection ~ 9000 3050
+$Comp
+L power:GND #PWR0212
+U 1 1 6095DD88
+P 9000 3550
+F 0 "#PWR0212" H 9000 3300 50  0001 C CNN
+F 1 "GND" H 9005 3377 50  0000 C CNN
+F 2 "" H 9000 3550 50  0001 C CNN
+F 3 "" H 9000 3550 50  0001 C CNN
+	1    9000 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3450 9000 3550
+Wire Wire Line
+	9150 4100 9400 4100
+$Comp
+L Device:R_Small_US R209
+U 1 1 60964254
+P 9400 3550
+F 0 "R209" H 9400 3700 50  0000 L CNN
+F 1 "10K" H 9450 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9400 3550 50  0001 C CNN
+F 3 "~" H 9400 3550 50  0001 C CNN
+F 4 "541-5440-1-ND" H 9400 3550 50  0001 C CNN "DPN"
+F 5 "CRCW060347R0FKEAC" H 9400 3550 50  0001 C CNN "MPN"
+F 6 "Vishay" H 9400 3550 50  0001 C CNN "Manufacturer"
+F 7 "1" H 9400 3550 50  0001 C CNN "Populate"
+F 8 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 9400 3550 50  0001 C CNN "Description"
+F 9 "541-5440-1-ND" H 9400 3550 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 9400 3550 50  0001 C CNN "Distributor"
+	1    9400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R210
+U 1 1 60964A36
+P 9650 3550
+F 0 "R210" H 9718 3596 50  0000 L CNN
+F 1 "10K" H 9718 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9650 3550 50  0001 C CNN
+F 3 "~" H 9650 3550 50  0001 C CNN
+F 4 "541-5440-1-ND" H 9650 3550 50  0001 C CNN "DPN"
+F 5 "CRCW060347R0FKEAC" H 9650 3550 50  0001 C CNN "MPN"
+F 6 "Vishay" H 9650 3550 50  0001 C CNN "Manufacturer"
+F 7 "1" H 9650 3550 50  0001 C CNN "Populate"
+F 8 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 9650 3550 50  0001 C CNN "Description"
+F 9 "541-5440-1-ND" H 9650 3550 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 9650 3550 50  0001 C CNN "Distributor"
+	1    9650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3450 9400 3050
+Wire Wire Line
+	9650 3450 9650 3050
+Wire Wire Line
+	9000 3050 9400 3050
+Connection ~ 9400 3050
+Wire Wire Line
+	9400 3050 9650 3050
+Connection ~ 9650 3050
+Wire Wire Line
+	9400 3650 9400 4100
+Wire Wire Line
+	9650 3650 9650 4200
+Wire Wire Line
+	9650 4200 9150 4200
+Connection ~ 4100 2550
+Wire Wire Line
+	9400 4100 10100 4100
+Connection ~ 9400 4100
+Wire Wire Line
+	9650 4200 10100 4200
+Connection ~ 9650 4200
+Wire Wire Line
+	9650 3050 10100 3050
+Text Notes 900  1300 0    50   ~ 0
+Revision 8\nreplaced TPS62150 for TPS82150 power\nAdded INA219 Current monitor\nRemoved linear regulator
+Wire Wire Line
+	1200 2550 1450 2550
+$Comp
+L Device:R_Small_US R211
+U 1 1 609AD059
+P 7650 4000
+F 0 "R211" V 7445 4000 50  0000 C CNN
+F 1 "10" V 7536 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 4000 50  0001 C CNN
+F 3 "~" H 7650 4000 50  0001 C CNN
+F 4 "541-3952-1-ND" H 7650 4000 50  0001 C CNN "DPN"
+F 5 "CRCW060310R0FKTA" H 7650 4000 50  0001 C CNN "MPN"
+F 6 "Vishay" H 7650 4000 50  0001 C CNN "Manufacturer"
+F 7 "1" H 7650 4000 50  0001 C CNN "Populate"
+F 8 "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 7650 4000 50  0001 C CNN "Description"
+F 9 "541-2983-1-ND " H 7650 4000 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 7650 4000 50  0001 C CNN "Distributor"
+	1    7650 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R212
+U 1 1 609ADD30
+P 7650 4650
+F 0 "R212" V 7445 4650 50  0000 C CNN
+F 1 "10" V 7536 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 4650 50  0001 C CNN
+F 3 "~" H 7650 4650 50  0001 C CNN
+F 4 "541-3952-1-ND" H 7650 4650 50  0001 C CNN "DPN"
+F 5 "CRCW060310R0FKTA" H 7650 4650 50  0001 C CNN "MPN"
+F 6 "Vishay" H 7650 4650 50  0001 C CNN "Manufacturer"
+F 7 "1" H 7650 4650 50  0001 C CNN "Populate"
+F 8 "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 7650 4650 50  0001 C CNN "Description"
+F 9 "541-2983-1-ND " H 7650 4650 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 7650 4650 50  0001 C CNN "Distributor"
+	1    7650 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C207
+U 1 1 609AE570
+P 7850 4300
+F 0 "C207" H 7942 4346 50  0000 L CNN
+F 1 "1uF" H 7942 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7850 4300 50  0001 C CNN
+F 3 "~" H 7850 4300 50  0001 C CNN
+F 4 "1276-6471-1-ND " H 7850 4300 50  0001 C CNN "DPN"
+F 5 "CL21B105KOFNNNG" H 7850 4300 50  0001 C CNN "MPN"
+F 6 "Samsung" H 7850 4300 50  0001 C CNN "Manufacturer"
+F 7 "1" H 7850 4300 50  0001 C CNN "Populate"
+F 8 "1 µF ±10% 16V Ceramic Capacitor X7R 0805 " H 7850 4300 50  0001 C CNN "Description"
+F 9 "1276-6471-1-ND " H 7850 4300 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 7850 4300 50  0001 C CNN "Distributor"
+	1    7850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 4200
+Wire Wire Line
+	7850 4400 7850 4650
+Wire Wire Line
+	7850 4650 7750 4650
+Wire Wire Line
+	7850 4000 7950 4000
+Wire Wire Line
+	7950 4000 8000 4050
+Wire Wire Line
+	8000 4050 8000 4150
+Wire Wire Line
+	8000 4150 8050 4200
+Connection ~ 7850 4000
+Wire Wire Line
+	7850 4650 7950 4650
+Wire Wire Line
+	7950 4650 8000 4600
+Wire Wire Line
+	8000 4600 8000 4450
+Wire Wire Line
+	8000 4450 8050 4400
+Connection ~ 7850 4650
+Text HLabel 4450 3250 0    50   Input ~ 0
+VBAT_EN
+Text HLabel 10100 4200 2    50   BiDi ~ 0
+I2C_SCL
+Text HLabel 10100 4100 2    50   BiDi ~ 0
+I2C_SDA
+Text Notes 7250 5100 0    50   ~ 0
+Revision 9: R211 and R212 \nchanged from 100K to 10 ohms \nto handle problems with bias offset\nand moved R208 (0.1 ohm current sense)\nto PWR IN line rather than P3V3
+Wire Wire Line
+	7550 4650 7450 4650
+Wire Wire Line
+	4650 2550 5100 2550
+Wire Wire Line
+	4100 2550 4650 2550
+Wire Wire Line
+	3600 2450 3600 2550
+Connection ~ 3600 2550
+Wire Wire Line
+	3600 2550 3700 2550
+Wire Wire Line
+	5300 2550 9150 2550
+Wire Wire Line
+	3900 2550 3950 2550
+Wire Wire Line
+	3950 2500 3950 2550
+Connection ~ 3950 2550
+Wire Wire Line
+	3950 2550 4100 2550
+Wire Wire Line
+	3350 2550 3500 2550
+Wire Wire Line
+	3500 2150 3500 2550
+Connection ~ 3500 2550
+Wire Wire Line
+	3500 2550 3600 2550
+Wire Wire Line
+	3950 2500 4000 2450
+Wire Wire Line
+	4000 2450 7350 2450
+Wire Wire Line
+	7350 2450 7400 2500
+Wire Wire Line
+	7400 2500 7400 4600
+Wire Wire Line
+	7400 4600 7450 4650
+Wire Wire Line
+	3600 2450 3650 2400
+Wire Wire Line
+	3650 2400 7400 2400
+Wire Wire Line
+	7400 2400 7450 2450
+Wire Wire Line
+	7450 2450 7450 3950
+Wire Wire Line
+	7450 3950 7500 4000
+Wire Wire Line
+	7500 4000 7550 4000
+$Comp
+L JS202011JCQN:JS202011JCQN S201
+U 1 1 60B7A41F
+P 1900 1900
+F 0 "S201" V 1854 2130 50  0000 L CNN
+F 1 "JS202011JCQN" V 1945 2130 50  0000 L CNN
+F 2 "SapphineMinimal:SW_JS202011JCQN" H 1900 1900 50  0001 L BNN
+F 3 "" H 1900 1900 50  0001 L BNN
+F 4 "" H 1900 1900 50  0001 L BNN "MANUFACTURER"
+F 5 "5.6 mm" H 1900 1900 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 1900 1900 50  0001 L BNN "STANDARD"
+F 7 "11 Nov 19" H 1900 1900 50  0001 L BNN "PARTREV"
+F 8 "JS202011JCQN" H 1900 1900 50  0001 C CNN "MPN"
+F 9 "1" H 1900 1900 50  0001 C CNN "Populate"
+F 10 "C&K" H 1900 1900 50  0001 C CNN "Manufacturer"
+F 11 "Slide Switch DPDT Surface Mount" H 1900 1900 50  0001 C CNN "Description"
+F 12 "CKN10723CT-ND" H 1900 1900 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 1900 1900 50  0001 C CNN "Distributor"
+	1    1900 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 3250 6750 3250
+Wire Wire Line
+	6750 3250 6750 3050
+Connection ~ 6650 3250
+Wire Wire Line
+	3250 2550 3350 2550
+Connection ~ 3250 2550
+Connection ~ 3350 2550
+Wire Wire Line
+	4450 3250 4650 3250
+Connection ~ 4650 3250
+Wire Wire Line
+	2250 2550 2000 2550
+Wire Wire Line
+	2000 2550 2000 2400
+Connection ~ 2250 2550
+Wire Wire Line
+	1450 2550 1600 2550
+Wire Wire Line
+	1900 2550 1900 2400
+Connection ~ 1450 2550
+NoConn ~ 1800 1400
+NoConn ~ 1800 2400
+Wire Wire Line
+	2000 1400 2000 1350
+Wire Wire Line
+	2000 1350 2050 1300
+Wire Wire Line
+	2050 1300 2200 1300
+Wire Wire Line
+	2200 1300 2250 1350
+Wire Wire Line
+	2250 1350 2250 2550
+Wire Wire Line
+	1900 1400 1900 1350
+Wire Wire Line
+	1900 1350 1850 1300
+Wire Wire Line
+	1850 1300 1650 1300
+Wire Wire Line
+	1650 1300 1600 1350
+Wire Wire Line
+	1600 1350 1600 2550
+Connection ~ 1600 2550
+Wire Wire Line
+	1600 2550 1900 2550
+$EndSCHEMATC

@@ -1,0 +1,355 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 6 7
+Title "Sapphire Mini"
+Date ""
+Rev ""
+Comp "Southern Methodist Univ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C602
+U 1 1 5E4584BC
+P 7050 2650
+F 0 "C602" H 7142 2696 50  0000 L CNN
+F 1 "1uF" H 7142 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7050 2650 50  0001 C CNN
+F 3 "~" H 7050 2650 50  0001 C CNN
+F 4 "0.06" H 7050 2650 50  0001 C CNN "DigiKey Price"
+F 5 "CL21B105KOFNNNG" H 7050 2650 50  0001 C CNN "MPN"
+F 6 "Samsung" H 7050 2650 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 7050 2650 50  0001 C CNN "Tolerance"
+F 8 " " H 7050 2650 50  0001 C CNN "Type"
+F 9 "16" H 7050 2650 50  0001 C CNN "Voltage"
+F 10 "1" H 7050 2650 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0805-1uF" H 7050 2650 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-6471-1-ND " H 7050 2650 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 7050 2650 50  0001 C CNN "Distributor"
+F 14 "1276-6471-1-ND " H 7050 2650 50  0001 C CNN "DPN"
+F 15 "1 µF ±10% 16V Ceramic Capacitor X7R 0805 " H 7050 2650 50  0001 C CNN "Description"
+	1    7050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0605
+U 1 1 5E458DE8
+P 7050 2850
+F 0 "#PWR0605" H 7050 2600 50  0001 C CNN
+F 1 "GND" H 7055 2677 50  0000 C CNN
+F 2 "" H 7050 2850 50  0001 C CNN
+F 3 "" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R602
+U 1 1 5E4593BF
+P 4800 2800
+F 0 "R602" H 4868 2846 50  0000 L CNN
+F 1 "4K75" H 4868 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 2800 50  0001 C CNN
+F 3 "~" H 4800 2800 50  0001 C CNN
+F 4 "0.05" H 4800 2800 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 4800 2800 50  0001 C CNN "Manufacturer"
+F 6 "CRCW06034K75FKEAC" H 4800 2800 50  0001 C CNN "MPN"
+F 7 "5%" H 4800 2800 50  0001 C CNN "Tolerance"
+F 8 "1" H 4800 2800 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-4.7K" H 4800 2800 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3984-1-ND" H 4800 2800 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 4800 2800 50  0001 C CNN "Distributor"
+F 12 "541-3984-1-ND " H 4800 2800 50  0001 C CNN "DPN"
+F 13 "4.75 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 4800 2800 50  0001 C CNN "Description"
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R601
+U 1 1 5E459D5A
+P 4300 2800
+F 0 "R601" H 4368 2846 50  0000 L CNN
+F 1 "4K75" H 4368 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2800 50  0001 C CNN
+F 3 "~" H 4300 2800 50  0001 C CNN
+F 4 "0.05" H 4300 2800 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 4300 2800 50  0001 C CNN "Manufacturer"
+F 6 "CRCW06034K75FKEAC" H 4300 2800 50  0001 C CNN "MPN"
+F 7 "5%" H 4300 2800 50  0001 C CNN "Tolerance"
+F 8 "1" H 4300 2800 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-4.7K" H 4300 2800 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3984-1-ND" H 4300 2800 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 4300 2800 50  0001 C CNN "Distributor"
+F 12 "541-3984-1-ND " H 4300 2800 50  0001 C CNN "DPN"
+F 13 "4.75 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 4300 2800 50  0001 C CNN "Description"
+	1    4300 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2900 5400 2350
+Wire Wire Line
+	5400 2350 6050 2350
+Wire Wire Line
+	7050 2350 7050 2550
+Wire Wire Line
+	7050 2750 7050 2850
+Connection ~ 5400 2350
+$Comp
+L Device:R_Small_US R603
+U 1 1 5E45B03D
+P 6050 2700
+F 0 "R603" H 6118 2746 50  0000 L CNN
+F 1 "47K5" H 6118 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6050 2700 50  0001 C CNN
+F 3 "~" H 6050 2700 50  0001 C CNN
+F 4 "0.10" H 6050 2700 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 6050 2700 50  0001 C CNN "Manufacturer"
+F 6 "CRCW060347K5FKEAC" H 6050 2700 50  0001 C CNN "MPN"
+F 7 "1%" H 6050 2700 50  0001 C CNN "Tolerance"
+F 8 "1" H 6050 2700 50  0001 C CNN "Populate"
+F 9 "CRCW060347K5FKEAC" H 6050 2700 50  0001 C CNN "MacroFab_PN"
+F 10 "541-4050-1-ND" H 6050 2700 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 6050 2700 50  0001 C CNN "Distributor"
+F 12 "541-4050-1-ND" H 6050 2700 50  0001 C CNN "DPN"
+F 13 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 6050 2700 50  0001 C CNN "Description"
+	1    6050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2600 6050 2350
+Connection ~ 6050 2350
+Wire Wire Line
+	6000 3100 6050 3100
+Wire Wire Line
+	6050 3100 6050 2800
+Text HLabel 7050 3100 2    50   Output ~ 0
+32KHz
+Wire Wire Line
+	6050 3100 7050 3100
+Connection ~ 6050 3100
+Text HLabel 7050 3400 2    50   Output ~ 0
+SQW
+$Comp
+L power:GND #PWR0601
+U 1 1 5E461181
+P 3700 4400
+F 0 "#PWR0601" H 3700 4150 50  0001 C CNN
+F 1 "GND" H 3705 4227 50  0000 C CNN
+F 2 "" H 3700 4400 50  0001 C CNN
+F 3 "" H 3700 4400 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3700 3500 0    50   Output ~ 0
+RESET
+$Comp
+L power:GND #PWR0603
+U 1 1 5E46312F
+P 5750 2700
+F 0 "#PWR0603" H 5750 2450 50  0001 C CNN
+F 1 "GND" H 5755 2527 50  0000 C CNN
+F 2 "" H 5750 2700 50  0001 C CNN
+F 3 "" H 5750 2700 50  0001 C CNN
+	1    5750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2900 5500 2600
+Wire Wire Line
+	5500 2600 5550 2550
+Wire Wire Line
+	5550 2550 5700 2550
+Wire Wire Line
+	5700 2550 5750 2600
+Wire Wire Line
+	5750 2600 5750 2700
+Connection ~ 4950 3900
+Wire Wire Line
+	3300 2350 4300 2350
+Wire Wire Line
+	4300 2700 4300 2350
+Connection ~ 4300 2350
+Wire Wire Line
+	4300 2350 4800 2350
+Wire Wire Line
+	4800 2700 4800 2350
+Connection ~ 4800 2350
+Wire Wire Line
+	4800 2350 5400 2350
+Wire Wire Line
+	6050 2350 6400 2350
+Wire Wire Line
+	6000 3400 6400 3400
+Text HLabel 3300 2350 0    50   Input ~ 0
+P3V3
+$Comp
+L Device:C_Small C601
+U 1 1 5E6F6687
+P 6600 2650
+F 0 "C601" H 6692 2696 50  0000 L CNN
+F 1 "100nF" H 6692 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6600 2650 50  0001 C CNN
+F 3 "~" H 6600 2650 50  0001 C CNN
+F 4 "0.10" H 6600 2650 50  0001 C CNN "DigiKey Price"
+F 5 "CL10B104KA8NNNC" H 6600 2650 50  0001 C CNN "MPN"
+F 6 "Samsung" H 6600 2650 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 6600 2650 50  0001 C CNN "Tolerance"
+F 8 "25" H 6600 2650 50  0001 C CNN "Voltage"
+F 9 "25 volt" H 6600 2650 50  0001 C CNN "Voltage Rating (DC)"
+F 10 "1" H 6600 2650 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0603-0.1uF" H 6600 2650 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-1006-1-ND " H 6600 2650 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 6600 2650 50  0001 C CNN "Distributor"
+F 14 "1276-1006-1-ND " H 6600 2650 50  0001 C CNN "DPN"
+F 15 "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 6600 2650 50  0001 C CNN "Description"
+	1    6600 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2550 6600 2350
+Connection ~ 6600 2350
+Wire Wire Line
+	6600 2350 7050 2350
+$Comp
+L power:GND #PWR0604
+U 1 1 5E6F70E9
+P 6600 2850
+F 0 "#PWR0604" H 6600 2600 50  0001 C CNN
+F 1 "GND" H 6605 2677 50  0000 C CNN
+F 2 "" H 6600 2850 50  0001 C CNN
+F 3 "" H 6600 2850 50  0001 C CNN
+	1    6600 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2850 6600 2750
+Text HLabel 3900 3200 0    50   BiDi ~ 0
+I2C_SDA
+Text HLabel 3900 3100 0    50   BiDi ~ 0
+I2C_SCL
+Wire Wire Line
+	4800 2900 4800 3100
+Wire Wire Line
+	4800 3100 5000 3100
+Wire Wire Line
+	4300 2900 4300 3200
+Wire Wire Line
+	4300 3200 5000 3200
+Wire Wire Line
+	4800 3100 3900 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	4300 3200 3900 3200
+Connection ~ 4300 3200
+$Comp
+L sapphireMini:DS3231S U601
+U 1 1 5E3F8A74
+P 5500 3300
+F 0 "U601" H 5300 2800 50  0000 C CNN
+F 1 "DS3231SN" H 5350 2700 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 5500 2700 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 5770 3350 50  0001 C CNN
+F 4 "DS3231SN#T&R" H 5500 3300 50  0001 C CNN "MPN"
+F 5 "Maxim" H 5500 3300 50  0001 C CNN "Manufacturer"
+F 6 "1" H 5500 3300 50  0001 C CNN "Populate"
+F 7 "DS3231SN#" H 5500 3300 50  0001 C CNN "MacroFab_PN"
+F 8 "DS3231SN#T&RCT-ND" H 5500 3300 50  0001 C CNN "Digi-Key_PN"
+F 9 "Digikey" H 5500 3300 50  0001 C CNN "Distributor"
+F 10 "DS3231SN#T&RCT-ND" H 5500 3300 50  0001 C CNN "DPN"
+F 11 "Real Time Clock (RTC) IC Clock/Calendar - I²C, 2-Wire Serial 16-SOIC (0.295\", 7.50mm Width)" H 5500 3300 50  0001 C CNN "Description"
+F 12 "110" H 5500 3300 50  0001 C CNN "OnHand"
+F 13 "Tubes" H 5500 3300 50  0001 C CNN "Status"
+	1    5500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3500 4950 3500
+Wire Wire Line
+	4950 3500 4950 3900
+Connection ~ 4950 3500
+Wire Wire Line
+	4950 3500 5000 3500
+$Comp
+L power:GND #PWR0101
+U 1 1 5E6719BB
+P 5500 4300
+F 0 "#PWR0101" H 5500 4050 50  0001 C CNN
+F 1 "GND" H 5505 4127 50  0000 C CNN
+F 2 "" H 5500 4300 50  0001 C CNN
+F 3 "" H 5500 4300 50  0001 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4300 5500 3700
+Text Notes 6050 3900 0    50   ~ 0
+DS3231S.  Be sure to avoid DS3231M version of chip \nwhich does not have precision clock output.\nSee datasheet on handling (avoid excessive shocks).\n
+$Comp
+L Device:R_Small_US R604
+U 1 1 5EA68707
+P 6400 2700
+F 0 "R604" H 6400 2600 50  0000 L CNN
+F 1 "47K5" H 6400 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 2700 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+F 4 "0.10" H 6400 2700 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 6400 2700 50  0001 C CNN "Manufacturer"
+F 6 "CRCW060347K5FKEAC" H 6400 2700 50  0001 C CNN "MPN"
+F 7 "1%" H 6400 2700 50  0001 C CNN "Tolerance"
+F 8 "1" H 6400 2700 50  0001 C CNN "Populate"
+F 9 "CRCW060347K5FKEAC" H 6400 2700 50  0001 C CNN "MacroFab_PN"
+F 10 "541-4050-1-ND" H 6400 2700 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 6400 2700 50  0001 C CNN "Distributor"
+F 12 "541-4050-1-ND" H 6400 2700 50  0001 C CNN "DPN"
+F 13 "47.5 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 6400 2700 50  0001 C CNN "Description"
+	1    6400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2600 6400 2350
+Connection ~ 6400 2350
+Wire Wire Line
+	6400 2350 6600 2350
+Wire Wire Line
+	6400 2800 6400 3400
+Connection ~ 6400 3400
+Wire Wire Line
+	6400 3400 7050 3400
+$Comp
+L EVQP7C01P:EVQP7C01P SW601
+U 1 1 60B84CFE
+P 3300 4150
+F 0 "SW601" H 4350 4603 60  0000 C CNN
+F 1 "EVQP7C01P" H 4350 4497 60  0000 C CNN
+F 2 "SapphineMinimal:EVQP7C01P" H 3850 4200 60  0001 C CNN
+F 3 "" H 3300 4150 60  0000 C CNN
+F 4 "1" H 3300 4150 50  0001 C CNN "Populate"
+F 5 "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle" H 3300 4150 50  0001 C CNN "Description"
+F 6 "P16765CT-ND" H 3300 4150 50  0001 C CNN "Digi-Key_PN"
+F 7 "EVQ-P7C01P" H 3300 4150 50  0001 C CNN "MPN"
+F 8 "Digikey" H 3300 4150 50  0001 C CNN "Distributor"
+	1    3300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3900 4950 3900
+Wire Wire Line
+	3700 3900 4250 3900
+Wire Wire Line
+	3700 3900 3700 4300
+Wire Wire Line
+	4950 4250 4900 4300
+Wire Wire Line
+	4900 4300 4450 4300
+Wire Wire Line
+	4950 3900 4950 4250
+Wire Wire Line
+	4250 4300 3700 4300
+Connection ~ 3700 4300
+Wire Wire Line
+	3700 4400 3700 4300
+$EndSCHEMATC

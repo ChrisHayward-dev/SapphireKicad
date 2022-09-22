@@ -1,0 +1,31 @@
+Drill report for C:/Users/00011114/Documents/KiCad/SapphireMini_RA/SapphineMinimal.kicad_pcb
+Created on 7/31/2021 10:17:11 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SapphineMinimal-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.20mm  0.008"  (4 holes)
+    T2  0.40mm  0.016"  (221 holes)
+    T3  0.50mm  0.020"  (2 holes)  (with 2 slots)
+    T4  0.65mm  0.026"  (14 holes)
+    T5  0.71mm  0.028"  (8 holes)
+    T6  1.00mm  0.039"  (27 holes)
+
+    Total plated holes count 276
+
+
+Drill file 'SapphineMinimal-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.89mm  0.035"  (4 holes)
+    T2  3.20mm  0.126"  (4 holes)
+
+    Total unplated holes count 8

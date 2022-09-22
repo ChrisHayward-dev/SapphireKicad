@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri "D:/KiCad Libraries/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name geo_sci_SMU)(type KiCad)(uri C:/Users/00011114/Documents/KiCad/Custom_footprints/geo_sci_SMU.pretty)(options "")(descr ""))
+  (lib (name SapphineMinimal)(type KiCad)(uri C:/Users/00011114/Documents/KiCad/Custom_footprints/SapphineMinimal.pretty)(options "")(descr ""))
+)

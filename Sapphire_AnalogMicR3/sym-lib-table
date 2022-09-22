@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name REF2030AIDDCR)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/REF2030AIDDCR.lib)(options "")(descr ""))
+  (lib (name INA317)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/INA317.lib)(options "")(descr ""))
+  (lib (name MCP4531)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/MCP4531.lib)(options "")(descr ""))
+  (lib (name MAX7414CUA)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/MAX7414CUA.lib)(options "")(descr ""))
+  (lib (name DAC7571)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/DAC7571.lib)(options "")(descr ""))
+  (lib (name MAX7404)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/MAX7404.lib)(options "")(descr ""))
+  (lib (name TPS22860DBVR)(type Legacy)(uri C:/Users/00011114/Documents/KiCad/Custom_symbols/TPS22860DBVR.lib)(options "")(descr ""))
+)

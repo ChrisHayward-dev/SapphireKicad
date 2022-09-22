@@ -1,0 +1,503 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 7 7
+Title "Sapphire Mini"
+Date ""
+Rev ""
+Comp "Southern Methodist Univ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5050 2200 2    50   Output ~ 0
+TIMEMARK
+$Comp
+L power:GND #PWR0703
+U 1 1 5E47557B
+P 4900 2800
+F 0 "#PWR0703" H 4900 2550 50  0001 C CNN
+F 1 "GND" H 4905 2627 50  0000 C CNN
+F 2 "" H 4900 2800 50  0001 C CNN
+F 3 "" H 4900 2800 50  0001 C CNN
+	1    4900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0704
+U 1 1 5E475CAF
+P 5350 2800
+F 0 "#PWR0704" H 5350 2550 50  0001 C CNN
+F 1 "GND" H 5355 2627 50  0000 C CNN
+F 2 "" H 5350 2800 50  0001 C CNN
+F 3 "" H 5350 2800 50  0001 C CNN
+	1    5350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2450 4900 2350
+Wire Wire Line
+	4900 2350 5350 2350
+Wire Wire Line
+	5350 2350 5350 2450
+Wire Wire Line
+	5350 2650 5350 2800
+Wire Wire Line
+	4900 2650 4900 2800
+Text HLabel 8700 2550 2    50   Output ~ 0
+P3V3
+Connection ~ 4900 2350
+Text HLabel 4200 4450 2    50   Output ~ 0
+RS232_TXD
+Text HLabel 4150 3750 2    50   Input ~ 0
+RS232_RXD
+Wire Wire Line
+	4150 3750 4050 3750
+Wire Wire Line
+	3850 3750 3750 3750
+Wire Wire Line
+	4850 2200 5050 2200
+Wire Wire Line
+	3200 4450 3700 4450
+Wire Wire Line
+	3900 4450 4200 4450
+Wire Wire Line
+	6100 2350 5350 2350
+Connection ~ 5350 2350
+Wire Wire Line
+	8400 2550 8400 2750
+$Comp
+L power:GND #PWR0707
+U 1 1 5E71F4E0
+P 8400 3000
+F 0 "#PWR0707" H 8400 2750 50  0001 C CNN
+F 1 "GND" H 8405 2827 50  0000 C CNN
+F 2 "" H 8400 3000 50  0001 C CNN
+F 3 "" H 8400 3000 50  0001 C CNN
+	1    8400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3000 8400 2950
+$Comp
+L power:GND #PWR0705
+U 1 1 5E7210A1
+P 6050 3100
+F 0 "#PWR0705" H 6050 2850 50  0001 C CNN
+F 1 "GND" H 6055 2927 50  0000 C CNN
+F 2 "" H 6050 3100 50  0001 C CNN
+F 3 "" H 6050 3100 50  0001 C CNN
+	1    6050 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2550 8400 2550
+Connection ~ 8400 2550
+Text HLabel 8600 1350 2    50   Input ~ 0
+GNSS_PWR
+Text Label 8050 2550 0    50   ~ 0
+P3V3
+Text Notes 5050 3750 0    50   ~ 0
+GNSS power is off by default (U702 pin 3 pulled down)\nV_BCKP supplied for memory backup all the time
+$Comp
+L power:GND #PWR0104
+U 1 1 5EA9CBB1
+P 1400 2800
+F 0 "#PWR0104" H 1400 2550 50  0001 C CNN
+F 1 "GND" H 1405 2627 50  0000 C CNN
+F 2 "" H 1400 2800 50  0001 C CNN
+F 3 "" H 1400 2800 50  0001 C CNN
+	1    1400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2650 1350 2650
+Wire Wire Line
+	1350 2650 1400 2700
+Wire Wire Line
+	1400 2700 1400 2800
+Wire Wire Line
+	2600 4450 3000 4450
+Wire Wire Line
+	2600 4450 2550 4400
+Wire Wire Line
+	2550 2600 2500 2550
+Wire Wire Line
+	2500 2550 2350 2550
+Wire Wire Line
+	1250 2450 2250 2450
+Wire Wire Line
+	2900 2450 2950 2500
+Wire Wire Line
+	2950 3700 3000 3750
+Wire Wire Line
+	3000 3750 3550 3750
+Wire Wire Line
+	1250 2350 2150 2350
+Text Notes 5000 4150 0    50   ~ 0
+Watch out!  Cables for GPS are not identical on each end.  
+$Comp
+L Connector:Conn_01x01_Male J702
+U 1 1 5EAAC730
+P 4250 1450
+F 0 "J702" H 4358 1631 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 4150 1450 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical" H 4250 1450 50  0001 C CNN
+F 3 "~" H 4250 1450 50  0001 C CNN
+F 4 "0" H 4250 1450 50  0001 C CNN "Populate"
+F 5 "PH1-01-UA" H 4250 1450 50  0001 C CNN "MPN"
+F 6 "Adam Tech" H 4250 1450 50  0001 C CNN "Manufacturer"
+F 7 "PH1-01-UA" H 4250 1450 50  0001 C CNN "MacroFab_PN"
+F 8 "2057-PH1-01-UA-ND" H 4250 1450 50  0001 C CNN "Digi-Key_PN"
+F 9 "Digikey" H 4250 1450 50  0001 C CNN "Distributor"
+F 10 "2057-PH1-01-UA-ND" H 4250 1450 50  0001 C CNN "DPN"
+F 11 "1" H 4250 1450 50  0001 C CNN "PTH"
+F 12 "Connector Header Through Hole 1 position 0.100\" (2.54mm)" H 4250 1450 50  0001 C CNN "Description"
+	1    4250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J701
+U 1 1 5EA9B758
+P 1050 2450
+F 0 "J701" H 1158 2731 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 1158 2640 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 1050 2450 50  0001 C CNN
+F 3 "~" H 1050 2450 50  0001 C CNN
+F 4 "1" H 1050 2450 50  0001 C CNN "Populate"
+F 5 "SM04B-SRSS-TB(LF)(SN)" H 1050 2450 50  0001 C CNN "MPN"
+F 6 "JST" H 1050 2450 50  0001 C CNN "Manufacturer"
+F 7 "SM04B-SRSS-TB(LF)(SN)" H 1050 2450 50  0001 C CNN "MacroFab_PN"
+F 8 "455-1804-1-ND" H 1050 2450 50  0001 C CNN "Digi-Key_PN"
+F 9 "Digikey" H 1050 2450 50  0001 C CNN "Distributor"
+F 10 "455-1804-1-ND" H 1050 2450 50  0001 C CNN "DPN"
+F 11 "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)" H 1050 2450 50  0001 C CNN "Description"
+F 12 "221" H 1050 2450 50  0001 C CNN "OnHand"
+F 13 "MiniReel" H 1050 2450 50  0001 C CNN "Status"
+	1    1050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R705
+U 1 1 5E7276B6
+P 8300 1600
+F 0 "R705" H 8200 1700 50  0000 C CNN
+F 1 "100K" H 8150 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8300 1600 50  0001 C CNN
+F 3 "~" H 8300 1600 50  0001 C CNN
+F 4 "0.05" H 8300 1600 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 8300 1600 50  0001 C CNN "Manufacturer"
+F 6 "CRCW0603100KFKEAC" H 8300 1600 50  0001 C CNN "MPN"
+F 7 "5%" H 8300 1600 50  0001 C CNN "Tolerance"
+F 8 "1" H 8300 1600 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-100K" H 8300 1600 50  0001 C CNN "MacroFab_PN"
+F 10 "541-3950-1-ND" H 8300 1600 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 8300 1600 50  0001 C CNN "Distributor"
+F 12 "541-3950-1-ND" H 8300 1600 50  0001 C CNN "DPN"
+F 13 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603" H 8300 1600 50  0001 C CNN "Description"
+	1    8300 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C702
+U 1 1 5E71C51F
+P 5350 2550
+F 0 "C702" H 5442 2596 50  0000 L CNN
+F 1 "1uF" H 5442 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5350 2550 50  0001 C CNN
+F 3 "~" H 5350 2550 50  0001 C CNN
+F 4 "0.06" H 5350 2550 50  0001 C CNN "DigiKey Price"
+F 5 "CL21B105KOFNNNG" H 5350 2550 50  0001 C CNN "MPN"
+F 6 "Samsung" H 5350 2550 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 5350 2550 50  0001 C CNN "Tolerance"
+F 8 " " H 5350 2550 50  0001 C CNN "Type"
+F 9 "16" H 5350 2550 50  0001 C CNN "Voltage"
+F 10 "1" H 5350 2550 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0805-1uF" H 5350 2550 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-6471-1-ND " H 5350 2550 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 5350 2550 50  0001 C CNN "Distributor"
+F 14 "1276-6471-1-ND " H 5350 2550 50  0001 C CNN "DPN"
+F 15 "1 µF ±10% 16V Ceramic Capacitor X7R 0805 " H 5350 2550 50  0001 C CNN "Description"
+	1    5350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R703
+U 1 1 5E48C1BE
+P 4750 2200
+F 0 "R703" V 4545 2200 50  0000 C CNN
+F 1 "47" V 4636 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4750 2200 50  0001 C CNN
+F 3 "~" H 4750 2200 50  0001 C CNN
+F 4 "0.05" H 4750 2200 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 4750 2200 50  0001 C CNN "Manufacturer"
+F 6 "5%" H 4750 2200 50  0001 C CNN "Tolerance"
+F 7 "CRCW060347R0FKEAC" H 4750 2200 50  0001 C CNN "MPN"
+F 8 "1" H 4750 2200 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-47" H 4750 2200 50  0001 C CNN "MacroFab_PN"
+F 10 "541-5440-1-ND" H 4750 2200 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 4750 2200 50  0001 C CNN "Distributor"
+F 12 "541-5440-1-ND" H 4750 2200 50  0001 C CNN "DPN"
+F 13 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 4750 2200 50  0001 C CNN "Description"
+	1    4750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R701
+U 1 1 5E483733
+P 3950 3750
+F 0 "R701" V 3745 3750 50  0000 C CNN
+F 1 "47" V 3836 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 3750 50  0001 C CNN
+F 3 "~" H 3950 3750 50  0001 C CNN
+F 4 "0.05" H 3950 3750 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 3950 3750 50  0001 C CNN "Manufacturer"
+F 6 "5%" H 3950 3750 50  0001 C CNN "Tolerance"
+F 7 "CRCW060347R0FKEAC" H 3950 3750 50  0001 C CNN "MPN"
+F 8 "1" H 3950 3750 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-47" H 3950 3750 50  0001 C CNN "MacroFab_PN"
+F 10 "541-5440-1-ND" H 3950 3750 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 3950 3750 50  0001 C CNN "Distributor"
+F 12 "541-5440-1-ND" H 3950 3750 50  0001 C CNN "DPN"
+F 13 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 3950 3750 50  0001 C CNN "Description"
+	1    3950 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB701
+U 1 1 5E4826A2
+P 3650 3750
+F 0 "FB701" V 3550 3900 50  0000 C CNN
+F 1 "600" V 3800 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 3750 50  0001 C CNN
+F 3 "~" H 3650 3750 50  0001 C CNN
+F 4 "0.15" H 3650 3750 50  0001 C CNN "DigiKey Price"
+F 5 "MZ1608-102Y" H 3650 3750 50  0001 C CNN "MPN"
+F 6 "Murata" H 3650 3750 50  0001 C CNN "Manufacturer"
+F 7 "1" H 3650 3750 50  0001 C CNN "Populate"
+F 8 "MZ1608-102Y" H 3650 3750 50  0001 C CNN "MacroFab_PN"
+F 9 "490-14398-1-ND" H 3650 3750 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 3650 3750 50  0001 C CNN "Distributor"
+F 11 "MZ1608-102Y" H 3650 3750 50  0001 C CNN "DPN"
+F 12 "600 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0603" H 3650 3750 50  0001 C CNN "Description"
+	1    3650 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R704
+U 1 1 5E47EC07
+P 3800 4450
+F 0 "R704" V 3595 4450 50  0000 C CNN
+F 1 "47" V 3686 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 4450 50  0001 C CNN
+F 3 "~" H 3800 4450 50  0001 C CNN
+F 4 "0.05" H 3800 4450 50  0001 C CNN "DigiKey Price"
+F 5 "Vishay" H 3800 4450 50  0001 C CNN "Manufacturer"
+F 6 "5%" H 3800 4450 50  0001 C CNN "Tolerance"
+F 7 "CRCW060347R0FKEAC" H 3800 4450 50  0001 C CNN "MPN"
+F 8 "1" H 3800 4450 50  0001 C CNN "Populate"
+F 9 "MF-RES-0603-47" H 3800 4450 50  0001 C CNN "MacroFab_PN"
+F 10 "541-5440-1-ND" H 3800 4450 50  0001 C CNN "Digi-Key_PN"
+F 11 "Digikey" H 3800 4450 50  0001 C CNN "Distributor"
+F 12 "541-5440-1-ND" H 3800 4450 50  0001 C CNN "DPN"
+F 13 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 3800 4450 50  0001 C CNN "Description"
+	1    3800 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB702
+U 1 1 5E47E38C
+P 3100 4450
+F 0 "FB702" V 2863 4450 50  0000 C CNN
+F 1 "600" V 2954 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3030 4450 50  0001 C CNN
+F 3 "~" H 3100 4450 50  0001 C CNN
+F 4 "0.15" H 3100 4450 50  0001 C CNN "DigiKey Price"
+F 5 "MZ1608-102Y" H 3100 4450 50  0001 C CNN "MPN"
+F 6 "Murata" H 3100 4450 50  0001 C CNN "Manufacturer"
+F 7 "1" H 3100 4450 50  0001 C CNN "Populate"
+F 8 "MZ1608-102Y" H 3100 4450 50  0001 C CNN "MacroFab_PN"
+F 9 "490-14398-1-ND" H 3100 4450 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 3100 4450 50  0001 C CNN "Distributor"
+F 11 "MZ1608-102Y" H 3100 4450 50  0001 C CNN "DPN"
+F 12 "600 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0603" H 3100 4450 50  0001 C CNN "Description"
+	1    3100 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C703
+U 1 1 5E475183
+P 8400 2850
+F 0 "C703" H 8492 2896 50  0000 L CNN
+F 1 "22uF" H 8492 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8400 2850 50  0001 C CNN
+F 3 "~" H 8400 2850 50  0001 C CNN
+F 4 "0.42" H 8400 2850 50  0001 C CNN "DigiKey Price"
+F 5 "CGA5L1X5R1C226M160AC" H 8400 2850 50  0001 C CNN "MPN"
+F 6 "TDK" H 8400 2850 50  0001 C CNN "Manufacturer"
+F 7 "16" H 8400 2850 50  0001 C CNN "Voltage"
+F 8 "16 volt" H 8400 2850 50  0001 C CNN "Voltage Rating (DC)"
+F 9 "1" H 8400 2850 50  0001 C CNN "Populate"
+F 10 "CC1206ZKY5V7BB226" H 8400 2850 50  0001 C CNN "MacroFab_PN"
+F 11 "445-12847-1-ND" H 8400 2850 50  0001 C CNN "Digi-Key_PN"
+F 12 "20%" H 8400 2850 50  0001 C CNN "Tolerance"
+F 13 "Digikey" H 8400 2850 50  0001 C CNN "Distributor"
+F 14 "1276-2728-1-ND" H 8400 2850 50  0001 C CNN "DPN"
+F 15 "22 µF ±20% 16V Ceramic Capacitor X5R 1206" H 8400 2850 50  0001 C CNN "Description"
+	1    8400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C701
+U 1 1 5E473F90
+P 4900 2550
+F 0 "C701" H 4992 2596 50  0000 L CNN
+F 1 "100nF" H 4992 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+F 4 "0.10" H 4900 2550 50  0001 C CNN "DigiKey Price"
+F 5 "CL10B104KA8NNNC" H 4900 2550 50  0001 C CNN "MPN"
+F 6 "Samsung" H 4900 2550 50  0001 C CNN "Manufacturer"
+F 7 "10%" H 4900 2550 50  0001 C CNN "Tolerance"
+F 8 "25" H 4900 2550 50  0001 C CNN "Voltage"
+F 9 "25 volt" H 4900 2550 50  0001 C CNN "Voltage Rating (DC)"
+F 10 "1" H 4900 2550 50  0001 C CNN "Populate"
+F 11 "MF-CAP-0603-0.1uF" H 4900 2550 50  0001 C CNN "MacroFab_PN"
+F 12 "1276-1006-1-ND " H 4900 2550 50  0001 C CNN "Digi-Key_PN"
+F 13 "Digikey" H 4900 2550 50  0001 C CNN "Distributor"
+F 14 "1276-1006-1-ND " H 4900 2550 50  0001 C CNN "DPN"
+F 15 "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4900 2550 50  0001 C CNN "Description"
+	1    4900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2500 2950 3700
+Wire Wire Line
+	2550 4400 2550 2600
+$Comp
+L Connector:Conn_01x06_Male J703
+U 1 1 60A52CA0
+P 2350 1850
+F 0 "J703" V 2412 1462 50  0000 R CNN
+F 1 "Conn_01x06_Male" V 2503 1462 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 2350 1850 50  0001 C CNN
+F 3 "~" H 2350 1850 50  0001 C CNN
+F 4 "2057-PH1RA-06-UA-ND" H 2350 1850 50  0001 C CNN "DPN"
+F 5 "PH1RA-06-UA" H 2350 1850 50  0001 C CNN "MPN"
+F 6 "0" H 2350 1850 50  0001 C CNN "Populate"
+F 7 "1" H 2350 1850 50  0001 C CNN "PTH"
+F 8 "Connector Header Through Hole, Right Angle 6 position 0.100\" (2.54mm)" H 2350 1850 50  0001 C CNN "Description"
+F 9 "2057-PH1RA-06-UA-ND" H 2350 1850 50  0001 C CNN "Digi-Key_PN"
+F 10 "Digikey" H 2350 1850 50  0001 C CNN "Distributor"
+	1    2350 1850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2150 2050 2150 2350
+Connection ~ 2150 2350
+Wire Wire Line
+	2150 2350 4900 2350
+Wire Wire Line
+	2250 2050 2250 2450
+Connection ~ 2250 2450
+Wire Wire Line
+	2250 2450 2900 2450
+Wire Wire Line
+	2350 2050 2350 2550
+Connection ~ 2350 2550
+Wire Wire Line
+	2350 2550 1250 2550
+$Comp
+L power:GND #PWR0701
+U 1 1 60A57244
+P 2450 2150
+F 0 "#PWR0701" H 2450 1900 50  0001 C CNN
+F 1 "GND" H 2455 1977 50  0000 C CNN
+F 2 "" H 2450 2150 50  0001 C CNN
+F 3 "" H 2450 2150 50  0001 C CNN
+	1    2450 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2150 2450 2050
+Wire Wire Line
+	2600 2200 2550 2150
+Wire Wire Line
+	2550 2150 2550 2050
+Wire Wire Line
+	2600 2200 4250 2200
+Wire Wire Line
+	4250 1650 4250 2200
+Connection ~ 4250 2200
+Wire Wire Line
+	4250 2200 4650 2200
+NoConn ~ 2650 2050
+Text Notes 900  800  0    50   ~ 0
+Revision 8\nAdded 0.1in connector for GPS push on pins\nChanged TPS22929D to TPS22860 for availability
+$Comp
+L sapphireMini:TPS22860DBVR U701
+U 1 1 60A62A69
+P 6800 2650
+F 0 "U701" H 6800 3220 50  0000 C CNN
+F 1 "TPS22860DBVR" H 6800 3129 50  0000 C CNN
+F 2 "SOT95P280X145-6N" H 6800 2650 50  0001 L BNN
+F 3 "" H 6800 2650 50  0001 L BNN
+F 4 "296-43982-1-ND" H 6800 2650 50  0001 C CNN "DPN"
+F 5 "TPS22860DBVR" H 6800 2650 50  0001 C CNN "MPN"
+F 6 "Texas Instruments" H 6800 2650 50  0001 C CNN "Manufacturer"
+F 7 "1" H 6800 2650 50  0001 C CNN "Populate"
+F 8 "Power Switch/Driver 1:1 - 200mA SOT-23-6" H 6800 2650 50  0001 C CNN "Description"
+F 9 "296-43982-1-ND" H 6800 2650 50  0001 C CNN "Digi-Key_PN"
+F 10 "110" H 6800 2650 50  0001 C CNN "OnHand"
+F 11 "MiniReel" H 6800 2650 50  0001 C CNN "Status"
+F 12 "Digikey" H 6800 2650 50  0001 C CNN "Distributor"
+	1    6800 2650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2850 6100 2850
+Wire Wire Line
+	6050 2850 6050 3100
+$Comp
+L power:GND #PWR0702
+U 1 1 60A6E7FB
+P 8300 2000
+F 0 "#PWR0702" H 8300 1750 50  0001 C CNN
+F 1 "GND" H 8305 1827 50  0000 C CNN
+F 2 "" H 8300 2000 50  0001 C CNN
+F 3 "" H 8300 2000 50  0001 C CNN
+	1    8300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2000 8300 1700
+Wire Wire Line
+	8300 1500 8300 1350
+Wire Wire Line
+	7500 2350 7750 2350
+Wire Wire Line
+	7750 2350 7800 2300
+Wire Wire Line
+	7800 2300 7800 1400
+Wire Wire Line
+	7800 1400 7850 1350
+Wire Wire Line
+	7850 1350 8300 1350
+Connection ~ 8300 1350
+Wire Wire Line
+	8300 1350 8600 1350
+Wire Wire Line
+	7500 2550 7800 2550
+Wire Wire Line
+	7500 2450 7750 2450
+Wire Wire Line
+	7750 2450 7800 2500
+Wire Wire Line
+	7800 2500 7800 2550
+Connection ~ 7800 2550
+Wire Wire Line
+	7800 2550 8400 2550
+$EndSCHEMATC
