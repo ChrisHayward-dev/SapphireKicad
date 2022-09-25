@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "Sapphire Mini"
 Date ""
 Rev ""
@@ -345,14 +345,8 @@ Wire Wire Line
 	4350 2050 4350 2000
 Wire Wire Line
 	4000 2050 4000 2000
-Text HLabel 1350 2250 0    50   Output ~ 0
+Text HLabel 2700 1600 2    50   Output ~ 0
 VBAT
-Wire Wire Line
-	1350 2250 1400 2250
-Wire Wire Line
-	1400 2250 1450 2300
-Wire Wire Line
-	1450 2300 1450 2550
 Text HLabel 5300 1650 2    50   Input ~ 0
 VUSB
 $Comp
@@ -743,10 +737,10 @@ L Device:R_Small_US R208
 U 1 1 609486BD
 P 3800 2550
 F 0 "R208" H 3732 2504 50  0000 R CNN
-F 1 "0.1" H 3732 2595 50  0000 R CNN
+F 1 "0" H 3732 2595 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3800 2550 50  0001 C CNN
 F 3 "~" H 3800 2550 50  0001 C CNN
-F 4 "WSL0603R1000FEA" H 3800 2550 50  0001 C CNN "MPN"
+F 4 "" H 3800 2550 50  0001 C CNN "MPN"
 F 5 "Vishay" H 3800 2550 50  0001 C CNN "Manufacturer"
 F 6 "WSLJ-.1CT-ND" H 3800 2550 50  0001 C CNN "DPN"
 F 7 "1" H 3800 2550 50  0001 C CNN "Populate"
@@ -756,314 +750,22 @@ F 10 "Digikey" H 3800 2550 50  0001 C CNN "Distributor"
 	1    3800 2550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Analog_ADC:INA219AxD U202
-U 1 1 6094A0E9
-P 8750 4300
-F 0 "U202" H 8750 4881 50  0000 C CNN
-F 1 "INA219BIDR" H 8750 4790 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9550 3950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 9100 4200 50  0001 C CNN
-F 4 "296-27899-1-ND" H 8750 4300 50  0001 C CNN "DPN"
-F 5 "INA219BIDR" H 8750 4300 50  0001 C CNN "MPN"
-F 6 "Texas Instruments" H 8750 4300 50  0001 C CNN "Manufacturer"
-F 7 "1" H 8750 4300 50  0001 C CNN "Populate"
-F 8 "Current Monitor Regulator High-Side 10mA 8-SOIC" H 8750 4300 50  0001 C CNN "Description"
-F 9 "296-27899-1-ND" H 8750 4300 50  0001 C CNN "Digi-Key_PN"
-F 10 "110" H 8750 4300 50  0001 C CNN "OnHand"
-F 11 "MiniReel" H 8750 4300 50  0001 C CNN "Status"
-F 12 "Digikey" H 8750 4300 50  0001 C CNN "Distributor"
-	1    8750 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 4200 8050 4200
-Wire Wire Line
-	8350 4400 8050 4400
-$Comp
-L power:GND #PWR0211
-U 1 1 6095242C
-P 8750 4850
-F 0 "#PWR0211" H 8750 4600 50  0001 C CNN
-F 1 "GND" H 8755 4677 50  0000 C CNN
-F 2 "" H 8750 4850 50  0001 C CNN
-F 3 "" H 8750 4850 50  0001 C CNN
-	1    8750 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8750 4700 8750 4850
-Wire Wire Line
-	9150 4400 9250 4400
-Wire Wire Line
-	9150 4500 9250 4500
-Wire Wire Line
-	9250 4500 9250 4400
-Wire Wire Line
-	9250 4500 9250 4850
-Connection ~ 9250 4500
-$Comp
-L power:GND #PWR0213
-U 1 1 60958F18
-P 9250 4850
-F 0 "#PWR0213" H 9250 4600 50  0001 C CNN
-F 1 "GND" H 9255 4677 50  0000 C CNN
-F 2 "" H 9250 4850 50  0001 C CNN
-F 3 "" H 9250 4850 50  0001 C CNN
-	1    9250 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8750 3900 8750 3050
-Wire Wire Line
-	8750 3050 9000 3050
-Text Label 9800 3050 0    50   ~ 0
-P3V3
-$Comp
-L Device:C_Small C?
-U 1 1 6095AE29
-P 9000 3350
-AR Path="/6095AE29" Ref="C?"  Part="1" 
-AR Path="/5E3FE3DD/6095AE29" Ref="C204"  Part="1" 
-F 0 "C204" H 9092 3396 50  0000 L CNN
-F 1 "100nF" H 9092 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 3350 50  0001 C CNN
-F 3 "~" H 9000 3350 50  0001 C CNN
-F 4 "0.10" H 9000 3350 50  0001 C CNN "DigiKey Price"
-F 5 "CL10B104KA8NNNC" H 9000 3350 50  0001 C CNN "MPN"
-F 6 "Samsung" H 9000 3350 50  0001 C CNN "Manufacturer"
-F 7 "10%" H 9000 3350 50  0001 C CNN "Tolerance"
-F 8 "25" H 9000 3350 50  0001 C CNN "Voltage"
-F 9 "25 volt" H 9000 3350 50  0001 C CNN "Voltage Rating (DC)"
-F 10 "1" H 9000 3350 50  0001 C CNN "Populate"
-F 11 "MF-CAP-0603-0.1uF" H 9000 3350 50  0001 C CNN "MacroFab_PN"
-F 12 "1276-1006-1-ND " H 9000 3350 50  0001 C CNN "Digi-Key_PN"
-F 13 "Digikey" H 9000 3350 50  0001 C CNN "Distributor"
-F 14 "1276-1006-1-ND " H 9000 3350 50  0001 C CNN "DPN"
-F 15 "0.1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 9000 3350 50  0001 C CNN "Description"
-	1    9000 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 3250 9000 3050
-Connection ~ 9000 3050
-$Comp
-L power:GND #PWR0212
-U 1 1 6095DD88
-P 9000 3550
-F 0 "#PWR0212" H 9000 3300 50  0001 C CNN
-F 1 "GND" H 9005 3377 50  0000 C CNN
-F 2 "" H 9000 3550 50  0001 C CNN
-F 3 "" H 9000 3550 50  0001 C CNN
-	1    9000 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 3450 9000 3550
-Wire Wire Line
-	9150 4100 9400 4100
-$Comp
-L Device:R_Small_US R209
-U 1 1 60964254
-P 9400 3550
-F 0 "R209" H 9400 3700 50  0000 L CNN
-F 1 "10K" H 9450 3600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9400 3550 50  0001 C CNN
-F 3 "~" H 9400 3550 50  0001 C CNN
-F 4 "541-5440-1-ND" H 9400 3550 50  0001 C CNN "DPN"
-F 5 "CRCW060347R0FKEAC" H 9400 3550 50  0001 C CNN "MPN"
-F 6 "Vishay" H 9400 3550 50  0001 C CNN "Manufacturer"
-F 7 "1" H 9400 3550 50  0001 C CNN "Populate"
-F 8 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 9400 3550 50  0001 C CNN "Description"
-F 9 "541-5440-1-ND" H 9400 3550 50  0001 C CNN "Digi-Key_PN"
-F 10 "Digikey" H 9400 3550 50  0001 C CNN "Distributor"
-	1    9400 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R210
-U 1 1 60964A36
-P 9650 3550
-F 0 "R210" H 9718 3596 50  0000 L CNN
-F 1 "10K" H 9718 3505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9650 3550 50  0001 C CNN
-F 3 "~" H 9650 3550 50  0001 C CNN
-F 4 "541-5440-1-ND" H 9650 3550 50  0001 C CNN "DPN"
-F 5 "CRCW060347R0FKEAC" H 9650 3550 50  0001 C CNN "MPN"
-F 6 "Vishay" H 9650 3550 50  0001 C CNN "Manufacturer"
-F 7 "1" H 9650 3550 50  0001 C CNN "Populate"
-F 8 "47 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 9650 3550 50  0001 C CNN "Description"
-F 9 "541-5440-1-ND" H 9650 3550 50  0001 C CNN "Digi-Key_PN"
-F 10 "Digikey" H 9650 3550 50  0001 C CNN "Distributor"
-	1    9650 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 3450 9400 3050
-Wire Wire Line
-	9650 3450 9650 3050
-Wire Wire Line
-	9000 3050 9400 3050
-Connection ~ 9400 3050
-Wire Wire Line
-	9400 3050 9650 3050
-Connection ~ 9650 3050
-Wire Wire Line
-	9400 3650 9400 4100
-Wire Wire Line
-	9650 3650 9650 4200
-Wire Wire Line
-	9650 4200 9150 4200
 Connection ~ 4100 2550
-Wire Wire Line
-	9400 4100 10100 4100
-Connection ~ 9400 4100
-Wire Wire Line
-	9650 4200 10100 4200
-Connection ~ 9650 4200
-Wire Wire Line
-	9650 3050 10100 3050
 Text Notes 900  1300 0    50   ~ 0
 Revision 8\nreplaced TPS62150 for TPS82150 power\nAdded INA219 Current monitor\nRemoved linear regulator
-Wire Wire Line
-	1200 2550 1450 2550
-$Comp
-L Device:R_Small_US R211
-U 1 1 609AD059
-P 7650 4000
-F 0 "R211" V 7445 4000 50  0000 C CNN
-F 1 "10" V 7536 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 4000 50  0001 C CNN
-F 3 "~" H 7650 4000 50  0001 C CNN
-F 4 "541-3952-1-ND" H 7650 4000 50  0001 C CNN "DPN"
-F 5 "CRCW060310R0FKTA" H 7650 4000 50  0001 C CNN "MPN"
-F 6 "Vishay" H 7650 4000 50  0001 C CNN "Manufacturer"
-F 7 "1" H 7650 4000 50  0001 C CNN "Populate"
-F 8 "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 7650 4000 50  0001 C CNN "Description"
-F 9 "541-2983-1-ND " H 7650 4000 50  0001 C CNN "Digi-Key_PN"
-F 10 "Digikey" H 7650 4000 50  0001 C CNN "Distributor"
-	1    7650 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R212
-U 1 1 609ADD30
-P 7650 4650
-F 0 "R212" V 7445 4650 50  0000 C CNN
-F 1 "10" V 7536 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 4650 50  0001 C CNN
-F 3 "~" H 7650 4650 50  0001 C CNN
-F 4 "541-3952-1-ND" H 7650 4650 50  0001 C CNN "DPN"
-F 5 "CRCW060310R0FKTA" H 7650 4650 50  0001 C CNN "MPN"
-F 6 "Vishay" H 7650 4650 50  0001 C CNN "Manufacturer"
-F 7 "1" H 7650 4650 50  0001 C CNN "Populate"
-F 8 "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603" H 7650 4650 50  0001 C CNN "Description"
-F 9 "541-2983-1-ND " H 7650 4650 50  0001 C CNN "Digi-Key_PN"
-F 10 "Digikey" H 7650 4650 50  0001 C CNN "Distributor"
-	1    7650 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C207
-U 1 1 609AE570
-P 7850 4300
-F 0 "C207" H 7942 4346 50  0000 L CNN
-F 1 "1uF" H 7942 4255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7850 4300 50  0001 C CNN
-F 3 "~" H 7850 4300 50  0001 C CNN
-F 4 "1276-6471-1-ND " H 7850 4300 50  0001 C CNN "DPN"
-F 5 "CL21B105KOFNNNG" H 7850 4300 50  0001 C CNN "MPN"
-F 6 "Samsung" H 7850 4300 50  0001 C CNN "Manufacturer"
-F 7 "1" H 7850 4300 50  0001 C CNN "Populate"
-F 8 "1 µF ±10% 16V Ceramic Capacitor X7R 0805 " H 7850 4300 50  0001 C CNN "Description"
-F 9 "1276-6471-1-ND " H 7850 4300 50  0001 C CNN "Digi-Key_PN"
-F 10 "Digikey" H 7850 4300 50  0001 C CNN "Distributor"
-	1    7850 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 4000 7850 4000
-Wire Wire Line
-	7850 4000 7850 4200
-Wire Wire Line
-	7850 4400 7850 4650
-Wire Wire Line
-	7850 4650 7750 4650
-Wire Wire Line
-	7850 4000 7950 4000
-Wire Wire Line
-	7950 4000 8000 4050
-Wire Wire Line
-	8000 4050 8000 4150
-Wire Wire Line
-	8000 4150 8050 4200
-Connection ~ 7850 4000
-Wire Wire Line
-	7850 4650 7950 4650
-Wire Wire Line
-	7950 4650 8000 4600
-Wire Wire Line
-	8000 4600 8000 4450
-Wire Wire Line
-	8000 4450 8050 4400
-Connection ~ 7850 4650
 Text HLabel 4450 3250 0    50   Input ~ 0
 VBAT_EN
-Text HLabel 10100 4200 2    50   BiDi ~ 0
-I2C_SCL
-Text HLabel 10100 4100 2    50   BiDi ~ 0
-I2C_SDA
-Text Notes 7250 5100 0    50   ~ 0
-Revision 9: R211 and R212 \nchanged from 100K to 10 ohms \nto handle problems with bias offset\nand moved R208 (0.1 ohm current sense)\nto PWR IN line rather than P3V3
-Wire Wire Line
-	7550 4650 7450 4650
 Wire Wire Line
 	4650 2550 5100 2550
 Wire Wire Line
 	4100 2550 4650 2550
 Wire Wire Line
-	3600 2450 3600 2550
-Connection ~ 3600 2550
-Wire Wire Line
-	3600 2550 3700 2550
-Wire Wire Line
 	5300 2550 9150 2550
-Wire Wire Line
-	3900 2550 3950 2550
-Wire Wire Line
-	3950 2500 3950 2550
-Connection ~ 3950 2550
-Wire Wire Line
-	3950 2550 4100 2550
 Wire Wire Line
 	3350 2550 3500 2550
 Wire Wire Line
 	3500 2150 3500 2550
 Connection ~ 3500 2550
-Wire Wire Line
-	3500 2550 3600 2550
-Wire Wire Line
-	3950 2500 4000 2450
-Wire Wire Line
-	4000 2450 7350 2450
-Wire Wire Line
-	7350 2450 7400 2500
-Wire Wire Line
-	7400 2500 7400 4600
-Wire Wire Line
-	7400 4600 7450 4650
-Wire Wire Line
-	3600 2450 3650 2400
-Wire Wire Line
-	3650 2400 7400 2400
-Wire Wire Line
-	7400 2400 7450 2450
-Wire Wire Line
-	7450 2450 7450 3950
-Wire Wire Line
-	7450 3950 7500 4000
-Wire Wire Line
-	7500 4000 7550 4000
 $Comp
 L JS202011JCQN:JS202011JCQN S201
 U 1 1 60B7A41F
@@ -1103,10 +805,7 @@ Wire Wire Line
 	2000 2550 2000 2400
 Connection ~ 2250 2550
 Wire Wire Line
-	1450 2550 1600 2550
-Wire Wire Line
 	1900 2550 1900 2400
-Connection ~ 1450 2550
 NoConn ~ 1800 1400
 NoConn ~ 1800 2400
 Wire Wire Line
@@ -1118,7 +817,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 1300 2250 1350
 Wire Wire Line
-	2250 1350 2250 2550
+	2250 1350 2250 1600
 Wire Wire Line
 	1900 1400 1900 1350
 Wire Wire Line
@@ -1132,4 +831,17 @@ Wire Wire Line
 Connection ~ 1600 2550
 Wire Wire Line
 	1600 2550 1900 2550
+Wire Wire Line
+	1200 2550 1600 2550
+Wire Wire Line
+	2250 1600 2700 1600
+Connection ~ 2250 1600
+Wire Wire Line
+	2250 1600 2250 2550
+Wire Wire Line
+	3900 2550 4100 2550
+Wire Wire Line
+	3500 2550 3700 2550
+Text Notes 3750 2500 0    50   ~ 0
+Current monitoring resistor if needed
 $EndSCHEMATC
