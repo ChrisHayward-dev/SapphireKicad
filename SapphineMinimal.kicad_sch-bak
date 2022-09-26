@@ -5,11 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (title "Sapphire Mini M2")
-    (date "2022-09-26")
-    (rev "1")
+    (title "Sapphire Mini")
     (company "Southern Methodist Univ")
-    (comment 1 "Chris Hayward")
   )
 
   (lib_symbols
@@ -602,7 +599,7 @@
     (property "Sheet name" "Sapphire_Proc" (id 0) (at 111.76 27.2284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "SapphireMini_Proc.kicad_sch" (id 1) (at 111.76 127.5846 0)
+    (property "Sheet file" "file63357570.kicad_sch" (id 1) (at 111.76 127.5846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "RESET" input (at 111.76 34.29 180)
@@ -730,7 +727,7 @@
     (property "Sheet name" "Sapphire_WiFi" (id 0) (at 172.72 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "SapphireMini_WiFi.kicad_sch" (id 1) (at 172.72 156.7946 0)
+    (property "Sheet file" "file63A74EF1.kicad_sch" (id 1) (at 172.72 156.7946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "WIFI_IRQ" output (at 210.82 129.54 90)
@@ -916,53 +913,53 @@
     (path "/00000000-0000-0000-0000-00005e3fec19/00000000-0000-0000-0000-00005e458de8"
       (reference "#PWR0605") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006338094c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063384e6d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633886ec"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063389d9d"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006339cb4a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006342f816"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006344f576"
-      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006346c5aa"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634b6a78"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634d9915"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006353b881"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b01"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b24"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006377e35e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000063a74ef2/00000000-0000-0000-0000-000063a7addc"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0701") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/00000000-0000-0000-0000-000063a7b136"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0702") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634d9915"
+      (reference "#PWR0801") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006353b881"
+      (reference "#PWR0802") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006342f816"
+      (reference "#PWR0803") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006346c5aa"
+      (reference "#PWR0804") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634b6a78"
+      (reference "#PWR0805") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006344f576"
+      (reference "#PWR0806") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006339cb4a"
+      (reference "#PWR0808") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006338094c"
+      (reference "#PWR0809") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063389d9d"
+      (reference "#PWR0810") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063384e6d"
+      (reference "#PWR0811") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633886ec"
+      (reference "#PWR0812") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b01"
+      (reference "#PWR0813") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b24"
+      (reference "#PWR0814") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006377e35e"
+      (reference "#PWR0815") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/00000000-0000-0000-0000-00005e64e388"
       (reference "C201") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric")

@@ -5,8 +5,11 @@
   (paper "USLetter")
 
   (title_block
-    (title "Sapphire Mini")
+    (title "Sapphire Mini M2")
+    (date "2022-09-26")
+    (rev "1")
     (company "Southern Methodist Univ")
+    (comment 1 "Chris Hayward")
   )
 
   (lib_symbols

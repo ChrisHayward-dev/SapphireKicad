@@ -5,11 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (title "Sapphire Mini M2")
-    (date "2022-09-26")
-    (rev "1")
+    (title "Sapphire Mini")
     (company "Southern Methodist Univ")
-    (comment 1 "Chris Hayward")
   )
 
   (lib_symbols
@@ -1048,6 +1045,7 @@
       )
     )
   )
+
 
   (junction (at 134.62 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 1313f2a5-50fd-4d49-91a0-d998bdff3e5b)

@@ -4,14 +4,6 @@
 
   (paper "A4")
 
-  (title_block
-    (title "Sapphire Mini M2")
-    (date "2022-09-26")
-    (rev "1")
-    (company "Southern Methodist Univ")
-    (comment 1 "Chris Hayward")
-  )
-
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -662,7 +654,7 @@
   (symbol (lib_id "power:GND") (at 125.73 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063a7addc)
-    (property "Reference" "#PWR0701" (id 0) (at 125.73 60.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 125.73 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 125.857 59.0042 0))
@@ -678,7 +670,7 @@
   (symbol (lib_id "power:GND") (at 149.86 54.61 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063a7b136)
-    (property "Reference" "#PWR0702" (id 0) (at 149.86 60.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 149.987 59.0042 0))

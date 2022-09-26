@@ -4,14 +4,6 @@
 
   (paper "A4")
 
-  (title_block
-    (title "Sapphire Mini M2")
-    (date "2022-09-26")
-    (rev "1")
-    (company "Southern Methodist Univ")
-    (comment 1 "Chris Hayward")
-  )
-
   (lib_symbols
     (symbol "Connector:Conn_01x04_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)
@@ -1871,6 +1863,7 @@
       )
     )
   )
+
 
   (junction (at 170.18 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 0d4d8971-d713-4740-bf79-88abbe340bb8)
