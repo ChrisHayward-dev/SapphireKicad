@@ -65,6 +65,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0b22c7d8-16d9-4d6a-81f3-9189587af252)
   )
+  (polyline (pts (xy 165.1 123.19) (xy 165.1 168.91))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0eef1c38-2c97-4f20-b00e-d778a92b9b1f)
+  )
+
   (wire (pts (xy 144.78 156.21) (xy 143.51 157.48))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 12ad324a-caa5-4831-ae73-be0a80f67116)
@@ -81,6 +86,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 234ac361-251c-4416-beee-68f164d6aad0)
   )
+  (polyline (pts (xy 255.27 123.19) (xy 255.27 168.91))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 234bc331-b8c4-48ce-8364-5c306321366f)
+  )
+
   (wire (pts (xy 30.48 20.32) (xy 29.21 21.59))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2601b346-3b74-467f-b3a0-081439966640)
@@ -137,6 +147,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 517dc74f-7deb-455d-aa36-033de32c04d8)
   )
+  (polyline (pts (xy 255.27 168.91) (xy 165.1 168.91))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 51b33f73-54a9-469f-b8df-67a4ca90af3d)
+  )
+
   (wire (pts (xy 162.56 110.49) (xy 203.2 110.49))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 54b1254b-b26a-4193-96e3-27b33314dbaf)
@@ -329,6 +344,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cf44bad5-01b1-4ea2-bfbf-5c9a4c7744b4)
   )
+  (polyline (pts (xy 166.37 123.19) (xy 255.27 123.19))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d2a69475-1420-45d8-8a5b-b8b669eff8ed)
+  )
+
   (wire (pts (xy 67.31 68.58) (xy 111.76 68.58))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d2da26ec-cdc5-493e-9931-227b5a825210)
@@ -376,6 +396,11 @@
   (wire (pts (xy 48.26 90.17) (xy 111.76 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ffc597c8-9560-4a95-88f6-3a2a21350718)
+  )
+
+  (text "Optional Winc1500 WiFi module add on" (at 172.72 166.37 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9c659db9-42f4-4d13-b6ae-48e7fc311c99)
   )
 
   (label "P3V3" (at 21.59 64.77 0)
@@ -1192,6 +1217,18 @@
     (path "/00000000-0000-0000-0000-00005e3feed8/f10707d6-348b-406c-b20e-ff2555b8d695"
       (reference "R306") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005e3feed8/daf0bd99-befa-4f90-9212-4e1a6269e40c"
+      (reference "R307") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e3feed8/73b836e8-41a3-4a83-a239-43a97f5d54a3"
+      (reference "R308") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e3feed8/15b51247-f7d4-4fb2-a281-1d0f0d3ebd69"
+      (reference "R309") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e3feed8/8bee83c3-4740-451a-ae50-53d5532ca793"
+      (reference "R310") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005e3fe93a/00000000-0000-0000-0000-00005e48c1be"
       (reference "R401") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1269,6 +1306,12 @@
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/00000000-0000-0000-0000-000063a8bac9"
       (reference "R701") (unit 1) (value "0R25") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063a74ef2/6d43920e-21c5-441e-8415-c5dfb7b75379"
+      (reference "R702") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063a74ef2/44066c90-8c1b-4164-acc8-5fad27e22e40"
+      (reference "R703") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634d9925"
       (reference "R801") (unit 1) (value "4K75") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1383,6 +1426,18 @@
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b56"
       (reference "R838") (unit 1) (value "47K5") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/4b0fc5c4-e883-4a22-b9a8-4f7d5505cc14"
+      (reference "R839") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/0ba43dcf-e8ac-4b48-84ad-6973602d256f"
+      (reference "R840") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/0c45c3ff-9887-4163-9704-1098ef8613b4"
+      (reference "R841") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000063357571/ef6922cb-e889-42f1-8d57-45ab4f8f15cc"
+      (reference "R842") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/00000000-0000-0000-0000-000060b7a41f"
       (reference "S501") (unit 1) (value "JS202011JCQN") (footprint "SapphineMinimal:SW_JS202011JCQN")
