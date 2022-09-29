@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SLG59M1446V
+D Ultra-small Dual 40 m, 1.0 A Integrated Power Switch with Discharge STDFN 8L
+K
+F 
+$ENDCMP
+#
+#End Doc Library
