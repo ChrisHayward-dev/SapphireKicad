@@ -17,5 +17,6 @@
   (lib (name "EVQP7C01P")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/EVQP7C01P.lib")(options "")(descr ""))
   (lib (name "JS202011JCQN")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/JS202011JCQN.lib")(options "")(descr ""))
   (lib (name "503182-1852")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/503182-1852.lib")(options "")(descr ""))
-  (lib (name "USBMicro")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/MicroUSB_10118193.lib")(options "")(descr ""))
+  (lib (name "USBMicro")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/MicroUSB_10118193.lib")(options "")(descr "")(disabled))
+  (lib (name "PanasonicRA")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/PanasonicResistorArray.lib")(options "")(descr ""))
 )

@@ -1337,29 +1337,8 @@
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633a0b13"
       (reference "R811") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000063357571/4b0fc5c4-e883-4a22-b9a8-4f7d5505cc14"
-      (reference "R812") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063a6f2fa"
-      (reference "R813") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633ab533"
-      (reference "R814") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633b61a3"
-      (reference "R815") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633b6414"
-      (reference "R816") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633b667c"
-      (reference "R817") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000633b4b90"
-      (reference "R818") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063a3da2b"
-      (reference "R819") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000063357571/f7fdc2fe-38c6-4a94-834f-b060ca0a2e19"
+      (reference "R812") (unit 1) (value "EXB-2HV470JV") (footprint "SapphineMinimal:EXB-2HV470JV")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063a3e14b"
       (reference "R820") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
