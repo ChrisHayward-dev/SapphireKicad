@@ -12,4 +12,10 @@ K
 F 
 $ENDCMP
 #
+$CMP EXB-2HV470JV
+D Resistor Networks & Arrays 47 OHM 5% Chip Resistors Array
+K
+F http://www.farnell.com/datasheets/1718548.pdf
+$ENDCMP
+#
 #End Doc Library

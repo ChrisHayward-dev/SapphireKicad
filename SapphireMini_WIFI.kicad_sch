@@ -472,6 +472,7 @@
     )
   )
 
+
   (junction (at 154.94 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 1741c5c5-8456-4f29-bc3f-bf99bf083485)
   )
@@ -643,6 +644,10 @@
     (uuid e636c4f0-5da5-4157-8d0a-1b207081ccc1)
   )
 
+  (hierarchical_label "P3V3" (shape input) (at 101.6 45.72 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2f31ecce-8c7c-4ba5-a445-c8c30be1cb22)
+  )
   (hierarchical_label "WIFI_IRQ" (shape output) (at 134.62 83.82 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 351ca782-d54b-48e7-a042-0d05365fd935)
