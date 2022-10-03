@@ -92,4 +92,78 @@ P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model RV-8803-C7-32.768k-3PPM-TA-QA
+#/927780/223132/2.49/8/2/Integrated Circuit
+DEF RV-8803-C7-32.768k-3PPM-TA-QA IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "RV-8803-C7-32.768k-3PPM-TA-QA" 1050 200 50 H V L CNN
+F2 "RV8803C7" 1050 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/530/RV_8803_C7-2308195.pdf" 1050 0 50 H I L CNN
+F4 "RV-8803-C7 8-Terminal Ceramic Leadless Chip Carrier [LCC8]" 1050 -100 50 H I L CNN "Description"
+F5 "0.8" 1050 -200 50 H I L CNN "Height"
+F6 "428-203035-MG01" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/RV-8803-C7-32.768k-3PPM-TA-QA?qs=7bTaA%2FLYtSb5zZOilbtzxw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Micro Crystal AG" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RV-8803-C7-32.768k-3PPM-TA-QA" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X CLKOUT 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 P
+X CLKOE 4 0 -300 200 R 50 50 0 0 P
+X VSS 5 1200 -300 200 L 50 50 0 0 P
+X ~INT 6 1200 -200 200 L 50 50 0 0 P
+X EVI 7 1200 -100 200 L 50 50 0 0 P
+X SCL 8 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FC0H224ZFTBR24
+#/396308/223132/2.49/2/2/Capacitor Polarised
+DEF FC0H224ZFTBR24 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "FC0H224ZFTBR24" 350 150 50 H V L CNN
+F2 "CAPAE1080X880N" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_S6011_FC.pdf" 350 -50 50 H I L CNN
+F4 "FC, Supercapacitors, SMD Can, 0.22 F, -20/+80%, 5.5 VDC, 70C, -25C, 70C, V-Chip, 0.33, 1.4 g, 10.5mm, 8.5mm, 10.8mm, 5mm" 350 -150 50 H I L CNN "Description"
+F5 "8.8" 350 -250 50 H I L CNN "Height"
+F6 "80-FC0H224ZFTBR24" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/FC0H224ZFTBR24?qs=BenOyfdfAro%2F7lbQB8e4%252BQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "FC0H224ZFTBR24" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BAS70L,315
+#/1132646/223132/2.49/2/2/Diode
+DEF BAS70L,315 D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "BAS70L,315" 450 100 50 H V L CNN
+F2 "PESD5V0S1BL315" 450 0 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BAS70_1PS7XSB70_SER.pdf" 450 -100 50 H I L CNN
+F4 "Nexperia 70V 70mA, Diode, 2-Pin SOD-882 BAS70L,315" 450 -200 50 H I L CNN "Description"
+F5 "0" 450 -300 50 H I L CNN "Height"
+F6 "771-BAS70L315" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/BAS70L315?qs=me8TqzrmIYUQykHMkkfEBQ%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "BAS70L,315" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
 #End Library
