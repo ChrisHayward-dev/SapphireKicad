@@ -1,4 +1,4 @@
-21329654167842232
+21331319580601507
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79673,6 +79673,13 @@ TRIM_TC33X-2-202E
 0
 3
 3
+Sapphire
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias.3mm
+VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+26
+17
 Sapphire
 uUSB_B
 
