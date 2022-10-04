@@ -480,7 +480,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/00011114/Downloads/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -508,16 +508,16 @@
       "SapphireMini_Power"
     ],
     [
-      "00000000-0000-0000-0000-00005e3fec19",
-      "SapphireMini_DS3231"
-    ],
-    [
       "00000000-0000-0000-0000-000063a74ef2",
       "Sapphire_WiFi"
     ],
     [
       "00000000-0000-0000-0000-000063357571",
       "Sapphire_Proc"
+    ],
+    [
+      "02f7f1a8-c16c-4697-98e1-c7ad3ab03d9e",
+      "RV8803"
     ]
   ],
   "text_variables": {}
