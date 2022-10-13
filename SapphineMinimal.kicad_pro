@@ -412,7 +412,6 @@
         "name": "Power",
         "nets": [
           "/P3V3",
-          "/SapphireMini_GNSS/GNSS_OUTPUT_POWER",
           "/SapphireMini_Power/PWR_IN",
           "/SapphireMini_Power/SD_OUTPUT_POWER",
           "/SapphireMini_Power/VBAT",

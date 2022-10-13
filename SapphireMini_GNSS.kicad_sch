@@ -988,7 +988,6 @@
     )
   )
 
-
   (junction (at 64.77 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 2f2c03d2-9de7-4776-88dd-d7e1f36f8520)
   )
@@ -1508,7 +1507,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 134.62 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6bda1ba2-5697-4584-8671-03daa411d89e)
-    (property "Reference" "J?" (id 0) (at 110.49 43.18 0)
+    (property "Reference" "J402" (id 0) (at 110.49 43.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x04_Male" (id 1) (at 118.11 57.15 0)
@@ -1644,7 +1643,7 @@
   (symbol (lib_id "power:GND") (at 110.49 60.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e48639de-54e4-4df5-aeb4-64b28c095611)
-    (property "Reference" "#PWR?" (id 0) (at 110.49 67.31 0)
+    (property "Reference" "#PWR0101" (id 0) (at 110.49 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 110.617 65.3542 0))
