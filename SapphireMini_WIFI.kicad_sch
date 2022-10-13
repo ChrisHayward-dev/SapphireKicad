@@ -2,14 +2,15 @@
 
   (uuid 7c741e5f-5be0-4ab4-ab84-be04526e6b4e)
 
-  (paper "A4")
+  (paper "A")
 
   (title_block
     (title "Sapphire Mini M2")
-    (date "2022-09-26")
+    (date "2022-10-04")
     (rev "1")
     (company "Southern Methodist Univ")
     (comment 1 "Chris Hayward")
+    (comment 2 "Markup copy w/ errors!")
   )
 
   (lib_symbols
@@ -472,6 +473,7 @@
     )
   )
 
+
   (junction (at 154.94 45.72) (diameter 0) (color 0 0 0 0)
     (uuid 1741c5c5-8456-4f29-bc3f-bf99bf083485)
   )
@@ -599,6 +601,10 @@
     (uuid ee6b6a8a-67af-4277-8c57-cd7db6f1c988)
   )
 
+  (text "Adafruit WINC1500 breakout option" (at 21.59 22.86 0)
+    (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
+    (uuid a162f99a-a320-40c2-9f43-cc3f880e8a14)
+  )
   (text "Pins 10-13 are not usable w/\ncurrent Adafruit Library"
     (at 132.08 95.25 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
