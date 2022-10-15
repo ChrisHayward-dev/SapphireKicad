@@ -417,9 +417,7 @@
           "/SapphireMini_Power/VBAT",
           "/SapphireMini_Power/VBUS",
           "Net-(C203-Pad1)",
-          "Net-(C701-Pad1)",
           "Net-(C702-Pad1)",
-          "Net-(C805-Pad1)",
           "Net-(FB701-Pad2)",
           "Net-(J501-Pad1)"
         ],
