@@ -418,8 +418,7 @@
           "/SapphireMini_Power/VBUS",
           "Net-(C203-Pad1)",
           "Net-(C702-Pad1)",
-          "Net-(FB701-Pad2)",
-          "Net-(J501-Pad1)"
+          "Net-(FB701-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
