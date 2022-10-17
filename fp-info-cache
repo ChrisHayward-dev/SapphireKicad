@@ -1,386 +1,400 @@
-91534007689535
-Sapphire
-0603
-
-
+94551364696513
+TestPoint
+TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
+CONN DEV
 0
 2
 2
-Sapphire
-5525DSO-DB001DS
-
-
-0
-14
-14
-Sapphire
-74439344022
-
-
+TestPoint
+TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
 0
 2
 2
-Sapphire
-ATSAMD21E18A-AUT
-
-
-0
-32
-32
-Sapphire
-BMP388
-
-
-0
-10
-10
-Sapphire
-CAPAE430X550N
-EEE-1VA100WR
-Capacitor
+TestPoint
+TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
 0
 2
-2
-Sapphire
-C_0805
-Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
-capacitor 0805
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
 0
 2
-2
-Sapphire
-C_1210
-Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
-capacitor 1210
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.0mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm
+test point wire loop
 0
 2
-2
-Sapphire
-DAC7571IDBVR
-
-
-0
-6
-6
-Sapphire
-DLHRF50DE1BDCNAV8
-E1BD
-Integrated Circuit
-0
-8
-8
-Sapphire
-DM3ATSFPEJM542
-DM3AT-SF-PEJM5(42)-7
-Connector
-0
-14
-14
-Sapphire
-Dedman_Logo
-
-
-0
-0
-0
-Sapphire
-EVQP7C01P
-
-
-0
-4
-4
-Sapphire
-EXB-2HV470JV
-
-
-0
-16
-16
-Sapphire
-GPS_Module_CAM-M8C-0
-
-
-0
-31
-31
-Sapphire
-INA317IDGKR
-
-
-0
-8
-8
-Sapphire
-JST_GH_SM02B-GHS-TB_02x1.25mm_Angled
-JST GH series connector, SM02B-GHS-TB, side entry type
-connector jst GH SMT side horizontal entry 1.25mm pitch
-0
-4
-2
-Sapphire
-LED_0603
-LED 0603 smd package
-LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.3mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
 0
 2
-2
-Sapphire
-LIS331DLHTR
-
-
-0
-16
-16
-Sapphire
-MAX7404ESA-T
-
-
-0
-8
-8
-Sapphire
-MAX7414CUA&plus_
-
-
-0
-8
-8
-Sapphire
-MCP4531T-103E&slash_MS
-
-
-0
-8
-8
-Sapphire
-MicroSD_2908-05WB-MG
-
-
-0
-12
-11
-Sapphire
-PCA9536D
-
-
-0
-8
-8
-Sapphire
-PQFN50P200X200X80-10N
-
-
-0
-10
-10
-Sapphire
-Pin_Header_Straight_2x05_Pitch1.27mm
-Through hole straight pin header, 2x05, 1.27mm pitch, double rows
-Through hole pin header THT 2x05 1.27mm double row
-0
-10
-10
-Sapphire
-REF2030AIDDCR
-
-
-0
-5
-5
-Sapphire
-R_0603
-Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
-resistor 0603
+1
+TestPoint
+TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
+wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
 0
 2
-2
-Sapphire
-SMU_Logo
-
-
-0
-0
-0
-Sapphire
-SMU_Logo1
-
-
-0
-0
-0
-Sapphire
-SMU_Logo_Big
-
-
-0
-0
-0
-Sapphire
-SMU_Logo_Big2
-
-
-0
-0
-0
-Sapphire
-SOD-123
-
-
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill0.7mm
+wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm
+test point wire loop
 0
 2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill1.3mm
+wire loop as test point, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
 2
-Sapphire
-SOIC-16_W7.5mm
-https://www.infineon.com/dgdl/ir2110.pdf?fileId=5546d462533600a4015355c80333167e
-
+1
+TestPoint
+TestPoint_Bridge_Pitch6.35mm_Drill1.3mm
+wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
 0
-16
-16
-Sapphire
-SOT-23-3
-
-
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch7.62mm_Drill1.3mm
+wire loop as test point, pitch 7.62mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
 0
-3
-3
-Sapphire
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
-0
-6
-6
-Sapphire
-SOT-363
-
-
-0
-6
-6
-Sapphire
-SOT-363_SC-70-6
-SOT-363, SC-70-6
-SOT-363 SC-70-6
-0
-6
-6
-Sapphire
-SOT95P280X145-6N
-
-
-0
-6
-6
-Sapphire
-SW_EVQ-P7J01P
-
-
-0
-4
-4
-Sapphire
-SW_JS202011JCQN
-
-
-0
-6
-6
-Sapphire
-SW_PB_4.5x4.5mm
-
-
-0
-4
-4
-Sapphire
-SW_PTS810_SJM_250_SMTR_LFS
-
-
-0
-4
-4
-Sapphire
-Sapphire_logo
-
-
-0
-0
-0
-Sapphire
-Socket_Strip_Straight_1x12_Pitch1.27mm
-Through hole straight socket strip, 1x12, 1.27mm pitch, single row
-Through hole socket strip THT 1x12 1.27mm single row
-0
-12
-12
-Sapphire
-Socket_Strip_Straight_1x16_Pitch1.27mm
-Through hole straight socket strip, 1x16, 1.27mm pitch, single row
-Through hole socket strip THT 1x16 1.27mm single row
-0
-16
-16
-Sapphire
-TE_5525DSO-DB001DS
-
-
-0
-14
-14
-Sapphire
-TPS22860DBVR
-
-
-0
-6
-6
-Sapphire
-TPS82130SILT
-SIL0008D_1
-Integrated Circuit
-0
-9
-9
-Sapphire
-TPSM84203EAB
-
-
-0
-3
-3
-Sapphire
-TP_Keystone
-
-
+2
+1
+TestPoint
+TestPoint_Keystone_5000-5004_Miniature
+Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
 0
 1
 1
-Sapphire
-TQFP-48_7x7mm
-http://ww1.microchip.com/downloads/en/DeviceDoc/40001884A.pdf
-
+TestPoint
+TestPoint_Keystone_5005-5009_Compact
+Keystone Miniature THM Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314
+Through Hole Mount Test Points
 0
-48
-48
-Sapphire
-TRIM_TC33X-2-202E
-<b>TC33X-2</b><br>
-
+1
+1
+TestPoint
+TestPoint_Keystone_5010-5014_Multipurpose
+Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319
+Through Hole Mount Test Points
 0
-3
-3
-Sapphire
-VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias.3mm
-VQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/tlv62095.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
-VQFN NoLead
+1
+1
+TestPoint
+TestPoint_Keystone_5015_Micro-Minature
+SMT Test Point- Micro Miniature 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
 0
-26
-17
-Sapphire
-uUSB_B
-
-
+1
+1
+TestPoint
+TestPoint_Keystone_5019_Minature
+SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
+Test Point
 0
-11
-6
+1
+1
+TestPoint
+TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile
+low profile wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.85mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded
+wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.0mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.5mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.8mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.8mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.5x1.5mm
+SMD rectangular pad as test Point, square 1.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.5x2.5mm
+SMD rectangular pad as test Point, square 2.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_3.0x3.0mm
+SMD rectangular pad as test Point, square 3.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_4.0x4.0mm
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.5mm
+SMD pad as test Point, diameter 2.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D4.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D2.0mm
+Plated Hole as test Point, diameter 2.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D3.0mm
+Plated Hole as test Point, diameter 3.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D4.0mm
+Plated Hole as test Point, diameter 4.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D5.0mm
+Plated Hole as test Point, diameter 5.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
+THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
+THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
+THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.5x2.5mm_Drill1.2mm
+THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_3.0x3.0mm_Drill1.5mm
+THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_4.0x4.0mm_Drill2.0mm
+THT rectangular pad as test Point, square 4.0mm  side length, hole diameter 2.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.0mm_Drill0.5mm
+THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.5mm_Drill0.7mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.0mm_Drill1.0mm
+THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.5mm_Drill1.2mm
+THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D3.0mm_Drill1.5mm
+THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D4.0mm_Drill2.0mm
+THT pad as test Point, diameter 4.0mm, hole diameter 2.0mm
+test point THT pad
+0
+1
+1

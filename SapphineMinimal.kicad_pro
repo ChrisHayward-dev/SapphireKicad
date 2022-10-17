@@ -417,8 +417,7 @@
           "/SapphireMini_Power/VBAT",
           "/SapphireMini_Power/VBUS",
           "Net-(C203-Pad1)",
-          "Net-(C702-Pad1)",
-          "Net-(FB701-Pad2)"
+          "Net-(C702-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -431,7 +430,9 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "/P3V3": "rgb(0, 255, 0)"
+    }
   },
   "pcbnew": {
     "last_paths": {
@@ -514,6 +515,10 @@
     [
       "02f7f1a8-c16c-4697-98e1-c7ad3ab03d9e",
       "RV8803"
+    ],
+    [
+      "40e161ec-7b25-41f3-8a8b-bde98a1bb120",
+      "MS5525DSO"
     ]
   ],
   "text_variables": {}
