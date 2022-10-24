@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15239999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -365,7 +365,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.1778,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -375,14 +375,14 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1778,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.1778,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -395,14 +395,14 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1778,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.1778,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -416,8 +416,7 @@
           "/SapphireMini_Power/SD_OUTPUT_POWER",
           "/SapphireMini_Power/VBAT",
           "/SapphireMini_Power/VBUS",
-          "Net-(C203-Pad1)",
-          "Net-(C702-Pad1)"
+          "Net-(C203-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -431,7 +430,8 @@
       "version": 2
     },
     "net_colors": {
-      "/P3V3": "rgb(0, 255, 0)"
+      "/P3V3": "rgb(0, 255, 0)",
+      "/SapphireMini_Power/SD_OUTPUT_POWER": "rgb(117, 159, 255)"
     }
   },
   "pcbnew": {
@@ -515,10 +515,6 @@
     [
       "02f7f1a8-c16c-4697-98e1-c7ad3ab03d9e",
       "RV8803"
-    ],
-    [
-      "40e161ec-7b25-41f3-8a8b-bde98a1bb120",
-      "MS5525DSO"
     ]
   ],
   "text_variables": {}

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [
@@ -17,10 +17,6 @@
       "unconnected-(S501-Pad3)",
       "unconnected-(S501-Pad7)",
       "unconnected-(U202-Pad6)",
-      "unconnected-(R813-Pad8)",
-      "unconnected-(R813-Pad9)",
-      "unconnected-(R814-Pad8)",
-      "unconnected-(R814-Pad9)",
       "unconnected-(R201-Pad8)",
       "unconnected-(R201-Pad9)",
       "unconnected-(U201-Pad2)",
@@ -84,7 +80,7 @@
       35,
       36
     ],
-    "visible_layers": "0005055_80000000",
+    "visible_layers": "ffd0cff_fffffff5",
     "zone_display_mode": 1
   },
   "meta": {
