@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_nets": [
       "unconnected-(CR801-Pad5)",
       "unconnected-(IC201-Pad6)",
@@ -80,7 +80,7 @@
       35,
       36
     ],
-    "visible_layers": "ffd0cff_fffffff5",
+    "visible_layers": "0015055_80000015",
     "zone_display_mode": 1
   },
   "meta": {
