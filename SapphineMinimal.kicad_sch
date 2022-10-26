@@ -1613,7 +1613,7 @@
       (reference "U202") (unit 1) (value "BMP390") (footprint "PQFN50P200X200X80-10N")
     )
     (path "/00000000-0000-0000-0000-00005e3feed8/f2567067-8574-42aa-9b0a-dabb9c178ac5"
-      (reference "U301") (unit 1) (value "MB85RS1MT") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
+      (reference "U301") (unit 1) (value "MB85RS2MTAPNF-G-BDERE1") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/00000000-0000-0000-0000-0000638e718a"
       (reference "U402") (unit 1) (value "SAM-M8Q-0-10") (footprint "SapphineMinimal:ublox_SAM-M8Q_HandSolder")

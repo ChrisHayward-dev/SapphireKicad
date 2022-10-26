@@ -2009,7 +2009,12 @@
     (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
     (uuid 79902eee-58ee-4c64-9f8f-836085360eea)
   )
-  (text "Backup power for GNSS\nand for RV8803" (at 212.09 160.02 0)
+  (text "Use RSCSK2043R3D01007T for C511 as\nan altrenative.  Will require an \nadditional footprint"
+    (at 195.58 135.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7a2b6229-b4e2-488e-8326-91898deb98a4)
+  )
+  (text "Backup power for GNSS\nand for RV8803" (at 209.55 143.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9ac4715f-5c9d-4e4e-bf7e-b7ecc9732684)
   )
