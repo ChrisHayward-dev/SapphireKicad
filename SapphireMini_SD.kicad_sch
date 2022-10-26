@@ -1336,7 +1336,7 @@
     (property "DigiKey Price" "0.10" (id 4) (at 173.99 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (id 5) (at 173.99 106.68 0)
+    (property "MPN" "CL05B103KB5NNNC" (id 5) (at 173.99 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Samsung" (id 6) (at 173.99 106.68 0)
