@@ -854,7 +854,7 @@
     (uuid fdd8d65b-f924-44e3-8f9c-01c44fd4b440)
   )
 
-  (text "DC-DC Power Supply" (at 20.32 20.32 0)
+  (text "FRAM memory" (at 20.32 20.32 0)
     (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
     (uuid 418469f3-3237-4e06-af18-fb305382748c)
   )

@@ -1,27 +1,9 @@
 {
   "board": {
-    "active_layer": 41,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
-    "hidden_nets": [
-      "unconnected-(CR801-Pad5)",
-      "unconnected-(IC201-Pad6)",
-      "unconnected-(IC201-Pad7)",
-      "unconnected-(J802-Pad6)",
-      "unconnected-(J802-Pad7)",
-      "unconnected-(J802-Pad8)",
-      "unconnected-(M701-Pad10)",
-      "unconnected-(M701-Pad11)",
-      "unconnected-(M701-Pad12)",
-      "unconnected-(M701-Pad13)",
-      "unconnected-(S501-Pad3)",
-      "unconnected-(S501-Pad7)",
-      "unconnected-(U202-Pad6)",
-      "unconnected-(R201-Pad8)",
-      "unconnected-(R201-Pad9)",
-      "unconnected-(U201-Pad2)",
-      "unconnected-(U201-Pad3)"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -30,7 +12,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
+    "ratsnest_display_mode": 1,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -80,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "0001320_00000001",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
