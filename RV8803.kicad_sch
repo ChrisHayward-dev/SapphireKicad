@@ -746,7 +746,7 @@
   (symbol (lib_id "Connector:TestPoint_Small") (at 123.19 96.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a05813e-708c-4225-b36d-3223a73b82ad)
-    (property "Reference" "TP?" (id 0) (at 119.38 95.25 0)
+    (property "Reference" "TP801" (id 0) (at 119.38 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "OSC" (id 1) (at 118.11 97.79 0)

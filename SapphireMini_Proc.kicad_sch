@@ -5368,7 +5368,7 @@
     (uuid 00000000-0000-0000-0000-0000635a1b6c)
     (property "Reference" "J802" (id 0) (at 207.01 89.7382 0))
     (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 212.09 110.49 0))
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" (id 2) (at 205.74 100.33 0)
+    (property "Footprint" "SapphineMinimal:CONN_3220-10-0100-00_CNC" (id 2) (at 205.74 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 205.74 100.33 0)

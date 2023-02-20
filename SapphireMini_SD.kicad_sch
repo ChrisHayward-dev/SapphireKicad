@@ -1296,7 +1296,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 26.67 92.71 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 352d5f94-685d-402c-b2c6-ec6fc9418908)
-    (property "Reference" "R?" (id 0) (at 29.21 90.17 0)
+    (property "Reference" "R302" (id 0) (at 29.21 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (id 1) (at 30.48 95.25 0)
