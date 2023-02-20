@@ -1612,7 +1612,7 @@
     (uuid f2567067-8574-42aa-9b0a-dabb9c178ac5)
     (property "Reference" "U301" (id 0) (at 66.04 92.71 0))
     (property "Value" "MB85RS2MTAPNF-G-BDERE1" (id 1) (at 55.88 90.17 0))
-    (property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" (id 2) (at 54.61 100.33 0)
+    (property "Footprint" "Sapphire:SOP-8_3.9x4.9mm_P1.27mm" (id 2) (at 54.61 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf" (id 3) (at 54.61 100.33 0)

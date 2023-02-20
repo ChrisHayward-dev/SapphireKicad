@@ -1349,7 +1349,7 @@
       (reference "C510") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/234570e1-cb95-4c4d-af82-610f57512e02"
-      (reference "C511") (unit 1) (value "FC0H224ZFTBR24") (footprint "CAPAE1080X880N")
+      (reference "C511") (unit 1) (value "RSCSK2043R3D011004T") (footprint "Sapphire:RSCSK2043R3D01004T")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/e620acf9-230d-4bd5-86fc-34576f14e359"
       (reference "C512") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1496,10 +1496,10 @@
       (reference "J801") (unit 1) (value "USB_B_Micro") (footprint "SapphineMinimal:FCI_10118193-0001LF")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b6c"
-      (reference "J802") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "SapphineMinimal:CONN_3220-10-0100-00_CNC")
+      (reference "J802") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063815981"
-      (reference "J803") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical")
+      (reference "J803") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000637481f1"
       (reference "J805") (unit 1) (value "Conn_01x04_Male") (footprint "Sapphire:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
@@ -1697,13 +1697,13 @@
       (reference "TP801") (unit 1) (value "OSC") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/3a65f7fd-136d-4cc0-bad7-5b08a056ab22"
-      (reference "U201") (unit 1) (value "LIS2DH12TR") (footprint "digikey-footprints:VFLGA-12_2x2mm")
+      (reference "U201") (unit 1) (value "LIS2DH12TR") (footprint "Sapphire:LIS2DH12TR")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/00000000-0000-0000-0000-0000639b31d6"
       (reference "U202") (unit 1) (value "BMP390") (footprint "Sapphire:BMP388")
     )
     (path "/00000000-0000-0000-0000-00005e3feed8/f2567067-8574-42aa-9b0a-dabb9c178ac5"
-      (reference "U301") (unit 1) (value "MB85RS2MTAPNF-G-BDERE1") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
+      (reference "U301") (unit 1) (value "MB85RS2MTAPNF-G-BDERE1") (footprint "Sapphire:SOP-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/00000000-0000-0000-0000-0000638e718a"
       (reference "U402") (unit 1) (value "SAM-M8Q-0-10") (footprint "SapphineMinimal:ublox_SAM-M8Q_HandSolder")
