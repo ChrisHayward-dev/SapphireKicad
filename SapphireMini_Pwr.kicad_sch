@@ -2333,6 +2333,10 @@
     (uuid fc9ef82e-42eb-475c-96bc-d79c26c3af48)
   )
 
+  (text "L501" (at 157.48 82.55 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1c64b39a-a8bb-49f6-a2eb-1a82a2ec3494)
+  )
   (text "R514,515 used to set\nramp up" (at 15.24 166.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2050bf77-8039-4da7-80ba-26d542c35de1)
