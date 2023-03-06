@@ -3,7 +3,7 @@
   (lib (name "SapphineMinimal-cache")(type "Legacy")(uri "${KIPRJMOD}/Trash/SapphineMinimal-cache.lib")(options "")(descr "")(disabled))
   (lib (name "SapphireMini_ProcG18-cache")(type "Legacy")(uri "${KIPRJMOD}/Trash/SapphireMini_ProcG18-cache.lib")(options "")(descr "")(disabled))
   (lib (name "10118193-0001LF")(type "Legacy")(uri "C:/Users/00011114/Desktop/Sapphire Mini - Rev 2/Project Libraries/Custom-Library/Custom_symbols/10118193-0001LF.lib")(options "")(descr "")(disabled))
-  (lib (name "SapphineMinimal-rescue")(type "Legacy")(uri "${KIPRJMOD}/SapphineMinimal-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "SapphineMinimal-rescue")(type "Legacy")(uri "${KIPRJMOD}/SapphineMinimal-rescue.lib")(options "")(descr ""))
   (lib (name "ATSAMD21E18")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/ATSAMD21E18.lib")(options "")(descr "")(disabled))
   (lib (name "DLHR-F50D-E1BD-C-NAV8")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/DLHR-F50D-E1BD-C-NAV8.lib")(options "")(descr "")(disabled))
   (lib (name "DM3AT-SF-PEJM5(42)")(type "Legacy")(uri "C:/Users/00011114/Documents/KiCad/Custom_symbols/DM3AT-SF-PEJM5(42).lib")(options "")(descr "")(disabled))
