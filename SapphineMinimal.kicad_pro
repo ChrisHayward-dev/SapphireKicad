@@ -55,7 +55,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|77765218|103938515|6eed6885-5c83-4cde-ba1c-bd54813be78b|7485a141-fcf8-4bf7-b60f-464a7c55d3f5",
+        "copper_edge_clearance|77768867|111117618|7a5eba35-532c-44a8-8b4c-6d8c8a19de52|a8fb25ee-14ba-4f33-84b2-b2d0f75ae1d9",
+        "courtyards_overlap|129546280|67301309|0961e715-e5ac-4c5c-aba8-da07ef253eef|33138982-0668-47d5-9b20-c4fa8207a70b",
+        "drill_out_of_range|124626278|120052618|a9a23921-31f5-4dca-b417-5c9cd12b4217|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|124626278|121232618|8b17fefc-3e67-4ca0-8046-62952020f22e|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|125806278|120052618|5efe81a2-6fcc-4615-8afa-c124b637b524|00000000-0000-0000-0000-000000000000",
+        "drill_out_of_range|125806278|121232618|ddb36e81-9d5b-4dae-bd36-d4063b61935a|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|112472106|119029718|5626278c-edfe-4288-aa0c-1ffccabba19f|a565f431-919a-491d-869a-ea6676db720b",
+        "silk_over_copper|112645912|119321818|5626278c-edfe-4288-aa0c-1ffccabba19f|a565f431-919a-491d-869a-ea6676db720b",
+        "silk_over_copper|77765218|102960615|6eed6885-5c83-4cde-ba1c-bd54813be78b|44eb3fd2-d681-45c7-8185-35e9f62649a3",
+        "silk_over_copper|77765218|104916415|6eed6885-5c83-4cde-ba1c-bd54813be78b|4a8ead71-0b84-4167-9872-4ab28a2ad0f4",
+        "silk_over_copper|77768867|110139718|7a5eba35-532c-44a8-8b4c-6d8c8a19de52|a7e7cc10-37ff-472c-bddf-dbf2ba7c33bc",
+        "silk_over_copper|77768867|112095518|7a5eba35-532c-44a8-8b4c-6d8c8a19de52|986cc493-cefb-4e0b-a890-d815a81ec69f",
+        "silk_over_copper|80386522|66064298|00000000-0000-0000-0000-00005eec17ec|2659fc2c-2357-4529-9a5e-51cf5e83217d",
+        "silk_over_copper|80386522|66064298|00000000-0000-0000-0000-00005eec17ec|2c4b367c-72d2-4c65-800a-29ac613efab9",
+        "silk_overlap|79756084|108053713|72c5d30a-79b3-4550-bd12-6bc9123316fd|8d9ae78e-8426-4964-a849-3f7f92870ea3"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
