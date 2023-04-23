@@ -621,6 +621,9 @@
     (property "Datasheet" "~" (id 3) (at 255.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Populate" "0" (id 4) (at 255.27 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 255.27 25.4 0) (unit 1)
@@ -636,6 +639,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 255.27 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Populate" "0" (id 4) (at 255.27 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -655,6 +661,9 @@
     (property "Datasheet" "~" (id 3) (at 255.27 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Populate" "0" (id 4) (at 255.27 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 255.27 43.18 0) (unit 1)
@@ -670,6 +679,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 255.27 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Populate" "0" (id 4) (at 255.27 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -689,6 +701,9 @@
     (property "Datasheet" "~" (id 3) (at 255.27 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Populate" "0" (id 4) (at 255.27 29.845 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 255.27 38.735 0) (unit 1)
@@ -704,6 +719,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 255.27 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Populate" "0" (id 4) (at 255.27 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -1498,7 +1516,7 @@
       (reference "FID106") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/00000000-0000-0000-0000-00005e66dbe9"
-      (reference "IC201") (unit 1) (value "DLHR-F50D-E1BD-C-NAV8") (footprint "Sapphire:DLHRF50DE1BDCNAV8")
+      (reference "IC201") (unit 1) (value "DNP DLHR-F50D-E1BD-C-NAV8") (footprint "Sapphire:DLHRF50DE1BDCNAV8")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/28ca0051-4e73-486f-a8fb-1e04cfc47f1d"
       (reference "IC501") (unit 1) (value "SLG59M1446V") (footprint "SamacSys_Parts:SLG59M1446V")
@@ -1507,7 +1525,7 @@
       (reference "J301") (unit 1) (value "503182-1852") (footprint "MOLEX_503182-1852")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/00000000-0000-0000-0000-000063937b6f"
-      (reference "J401") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+      (reference "J401") (unit 1) (value "DNP Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/6bda1ba2-5697-4584-8671-03daa411d89e"
       (reference "J402") (unit 1) (value "Conn_01x04_Male") (footprint "Sapphire:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
@@ -1522,10 +1540,10 @@
       (reference "J801") (unit 1) (value "USB_B_Micro") (footprint "SapphineMinimal:FCI_10118193-0001LF")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000635a1b6c"
-      (reference "J802") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
+      (reference "J802") (unit 1) (value "DNP Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063815981"
-      (reference "J803") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
+      (reference "J803") (unit 1) (value "DNP Conn_02x05_Odd_Even") (footprint "Sapphire:3220-10-0100-00")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000637481f1"
       (reference "J805") (unit 1) (value "Conn_01x04_Male") (footprint "Sapphire:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
@@ -1534,13 +1552,13 @@
       (reference "L501") (unit 1) (value "2.2uH") (footprint "SapphineMinimal:74439344022")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/00000000-0000-0000-0000-000063a75a3b"
-      (reference "M701") (unit 1) (value "AdafruitWINC1500") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical")
+      (reference "M701") (unit 1) (value "DNP AdafruitWINC1500") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/00000000-0000-0000-0000-00005e41cace"
-      (reference "Q501") (unit 1) (value "BC857BS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+      (reference "Q501") (unit 1) (value "BC857BDW1T1G") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/00000000-0000-0000-0000-00005e41cac8"
-      (reference "Q501") (unit 2) (value "BC857BS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+      (reference "Q501") (unit 2) (value "BC857BDW1T1G") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/72bdceb4-14fa-4bbc-ad1d-2262438e77f3"
       (reference "Q502") (unit 1) (value "SSM3J378R,LXHF") (footprint "digikey-footprints:SOT-23-3")
@@ -1660,7 +1678,7 @@
       (reference "R601") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/770a810f-7184-4b44-9425-19097f9992b5"
-      (reference "R602") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R602") (unit 1) (value "DNP 0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/c26ca922-835a-4202-97d2-3b260d7d3c1c"
       (reference "R603") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1672,10 +1690,10 @@
       (reference "R605") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/6d43920e-21c5-441e-8415-c5dfb7b75379"
-      (reference "R702") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R702") (unit 1) (value "DNP 47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063a74ef2/44066c90-8c1b-4164-acc8-5fad27e22e40"
-      (reference "R703") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R703") (unit 1) (value "DNP 47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000634d9925"
       (reference "R801") (unit 1) (value "4K75") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1744,7 +1762,7 @@
       (reference "SW802") (unit 1) (value "EVQP7C01P") (footprint "SapphineMinimal:EVQP7C01P")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/3a65f7fd-136d-4cc0-bad7-5b08a056ab22"
-      (reference "U201") (unit 1) (value "LIS2DH12TR") (footprint "Sapphire:LIS2DH12TR")
+      (reference "U201") (unit 1) (value "LIS2HH12TR") (footprint "Sapphire:LIS2DH12TR")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/00000000-0000-0000-0000-0000639b31d6"
       (reference "U202") (unit 1) (value "BMP390") (footprint "Sapphire:BMP388")
