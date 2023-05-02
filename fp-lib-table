@@ -4,4 +4,5 @@
   (lib (name "SapphineMinimal")(type "KiCad")(uri "C:/Users/00011114/Documents/KiCad/Custom_footprints/SapphineMinimal.pretty")(options "")(descr ""))
   (lib (name "Sapphire")(type "KiCad")(uri "${KIPRJMOD}/Custom_footprints/SapphineMinimal.pretty")(options "")(descr ""))
   (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/SnapEDA/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "SamacSys2")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.pretty")(options "")(descr ""))
 )

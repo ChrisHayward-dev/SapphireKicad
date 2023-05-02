@@ -21,4 +21,5 @@
   (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/SnapEDA/SamacSys_Parts.lib")(options "")(descr "")(disabled))
   (lib (name "PowerModule")(type "Legacy")(uri "${KIPRJMOD}/Custom_symbols/TPSM84203EAB.lib")(options "")(descr "")(disabled))
   (lib (name "MS5525DSO")(type "Legacy")(uri "${KIPRJMOD}/Custom_symbols/5525DSO-DB001DS.lib")(options "")(descr "")(disabled))
+  (lib (name "Samac2")(type "KiCad")(uri "${KIPRJMOD}/SamacSys_Parts.kicad_sym")(options "")(descr ""))
 )
