@@ -1794,13 +1794,13 @@
       (reference "R401") (unit 1) (value "EXB-2HV470JV") (footprint "Sapphire:EXB-2HV470JV")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/aaa36e05-11ab-444e-bd89-8708772a08f6"
-      (reference "R402") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R402") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/0b852067-657a-4b5b-bdce-a64f88bbee82"
-      (reference "R403") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R403") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe93a/f2374aa8-2062-4056-ae13-e17efc294558"
-      (reference "R404") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R404") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe3dd/00000000-0000-0000-0000-00005e41cae4"
       (reference "R501") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1878,16 +1878,16 @@
       (reference "R802") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006342f826"
-      (reference "R803") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R803") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-00006346c5a4"
-      (reference "R804") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R804") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063495c44"
-      (reference "R805") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R805") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-000063495c5a"
-      (reference "R806") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R806") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000063357571/00000000-0000-0000-0000-0000639c6ae8"
       (reference "R807") (unit 1) (value "4K75") (footprint "Resistor_SMD:R_0603_1608Metric")
