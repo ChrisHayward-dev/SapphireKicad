@@ -1761,13 +1761,13 @@
       (reference "R212") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/2f1fe692-614d-46eb-8ff0-b3efce496110"
-      (reference "R213") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R213") (unit 1) (value "DNP 47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/ed154d62-8e79-4f8f-88b6-f963d5ed9dbb"
       (reference "R214") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3fe689/eb703878-54e7-49a0-81f1-44dab3e3a622"
-      (reference "R215") (unit 1) (value "DNP 47") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R215") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3feed8/28017a9c-4ad3-45e1-b366-b886740ef2d1"
       (reference "R301") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
