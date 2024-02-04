@@ -42,4 +42,10 @@ K
 F http://katalog.we-online.de/pbs/datasheet/74438336047.pdf
 $ENDCMP
 #
+$CMP TMP117AIDRVR
+D +/-0.1C Accurate Digital Temperature Sensor with Integrated NV Memory
+K
+F http://www.ti.com/lit/gpn/tmp117
+$ENDCMP
+#
 #End Doc Library

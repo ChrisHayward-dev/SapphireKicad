@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.30479999999999996
         }
       },
@@ -529,8 +529,8 @@
       "idf": "",
       "netlist": "SapphineMinimal.net",
       "specctra_dsn": "",
-      "step": "SapphineMinimalM2R3.step",
-      "vrml": "SapphineMinimal.wrl"
+      "step": "SapphineMinimalM2R5.step",
+      "vrml": "SapphineMinimalM2R5.wrl"
     },
     "page_layout_descr_file": ""
   },
