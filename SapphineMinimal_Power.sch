@@ -1,0 +1,508 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J101
+U 1 1 5E388A26
+P 800 1600
+F 0 "J101" H 908 1781 50  0000 C CNN
+F 1 "JST" H 908 1690 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_S02B-EH_02x2.50mm_Angled" H 800 1600 50  0001 C CNN
+F 3 "~" H 800 1600 50  0001 C CNN
+	1    800  1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E38921B
+P 1050 2450
+F 0 "#PWR0101" H 1050 2200 50  0001 C CNN
+F 1 "GND" H 1055 2277 50  0000 C CNN
+F 2 "" H 1050 2450 50  0001 C CNN
+F 3 "" H 1050 2450 50  0001 C CNN
+	1    1050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:TPS82150 U101
+U 1 1 5E389832
+P 5650 1800
+F 0 "U101" H 5650 2267 50  0000 C CNN
+F 1 "TPS82150" H 5650 2176 50  0000 C CNN
+F 2 "Package_LGA:Texas_MicroSiP-8-1EP_2.8x3.0mm_P0.65mm_EP1.1x1.9mm_SMD_ThermalVias" H 5650 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps82150.pdf" H 5650 1050 50  0001 C CNN
+	1    5650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E38B35A
+P 5650 2450
+F 0 "#PWR0104" H 5650 2200 50  0001 C CNN
+F 1 "GND" H 5655 2277 50  0000 C CNN
+F 2 "" H 5650 2450 50  0001 C CNN
+F 3 "" H 5650 2450 50  0001 C CNN
+	1    5650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1700 1050 1750
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5E38CFA0
+P 7000 1450
+F 0 "#PWR0106" H 7000 1300 50  0001 C CNN
+F 1 "+3V3" H 7015 1623 50  0000 C CNN
+F 2 "" H 7000 1450 50  0001 C CNN
+F 3 "" H 7000 1450 50  0001 C CNN
+	1    7000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1600 6250 1600
+Text Label 4900 1600 0    50   ~ 0
+BAT_IN
+$Comp
+L Device:R_Small_US R101
+U 1 1 5E3903B2
+P 6250 1700
+F 0 "R101" H 6318 1746 50  0000 L CNN
+F 1 "124k" H 6318 1655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6250 1700 50  0001 C CNN
+F 3 "~" H 6250 1700 50  0001 C CNN
+	1    6250 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 1600
+$Comp
+L Device:R_Small_US R102
+U 1 1 5E390C2B
+P 6250 1900
+F 0 "R102" H 6318 1946 50  0000 L CNN
+F 1 "100k" H 6318 1855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6250 1900 50  0001 C CNN
+F 3 "~" H 6250 1900 50  0001 C CNN
+	1    6250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C101
+U 1 1 5E391991
+P 4950 1850
+F 0 "C101" H 5042 1896 50  0000 L CNN
+F 1 "10uF" H 5042 1805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4950 1850 50  0001 C CNN
+F 3 "~" H 4950 1850 50  0001 C CNN
+	1    4950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C102
+U 1 1 5E392661
+P 5200 2150
+F 0 "C102" H 5292 2196 50  0000 L CNN
+F 1 "3.3nF" H 5292 2105 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5200 2150 50  0001 C CNN
+F 3 "~" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C103
+U 1 1 5E392A16
+P 7000 1800
+F 0 "C103" H 7092 1846 50  0000 L CNN
+F 1 "22uF" H 7092 1755 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7000 1800 50  0001 C CNN
+F 3 "~" H 7000 1800 50  0001 C CNN
+	1    7000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E395740
+P 6250 2450
+F 0 "#PWR0105" H 6250 2200 50  0001 C CNN
+F 1 "GND" H 6255 2277 50  0000 C CNN
+F 2 "" H 6250 2450 50  0001 C CNN
+F 3 "" H 6250 2450 50  0001 C CNN
+	1    6250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E395A83
+P 4950 2450
+F 0 "#PWR0102" H 4950 2200 50  0001 C CNN
+F 1 "GND" H 4955 2277 50  0000 C CNN
+F 2 "" H 4950 2450 50  0001 C CNN
+F 3 "" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E395ABA
+P 5200 2450
+F 0 "#PWR0103" H 5200 2200 50  0001 C CNN
+F 1 "GND" H 5205 2277 50  0000 C CNN
+F 2 "" H 5200 2450 50  0001 C CNN
+F 3 "" H 5200 2450 50  0001 C CNN
+	1    5200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R103
+U 1 1 5E395B06
+P 6550 1400
+F 0 "R103" H 6618 1446 50  0000 L CNN
+F 1 "100k" H 6618 1355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6550 1400 50  0001 C CNN
+F 3 "~" H 6550 1400 50  0001 C CNN
+	1    6550 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1600 4950 1750
+Connection ~ 4950 1600
+Wire Wire Line
+	4950 1600 5250 1600
+Wire Wire Line
+	5200 2050 5250 2000
+Wire Wire Line
+	5250 1800 5250 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	6250 1800 6050 1800
+Connection ~ 6250 1800
+Wire Wire Line
+	4950 1950 4950 2450
+Wire Wire Line
+	5200 2250 5200 2450
+Wire Wire Line
+	1050 1750 1050 2450
+Wire Wire Line
+	5650 2200 5650 2450
+Wire Wire Line
+	6250 2000 6250 2450
+Wire Wire Line
+	7000 1450 7000 1600
+$Comp
+L power:GND #PWR0107
+U 1 1 5E39D112
+P 7000 2450
+F 0 "#PWR0107" H 7000 2200 50  0001 C CNN
+F 1 "GND" H 7005 2277 50  0000 C CNN
+F 2 "" H 7000 2450 50  0001 C CNN
+F 3 "" H 7000 2450 50  0001 C CNN
+	1    7000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2450 7000 1900
+Wire Wire Line
+	6250 1600 6550 1600
+Connection ~ 7000 1600
+Wire Wire Line
+	7000 1600 7000 1700
+Wire Wire Line
+	5250 1900 5200 1900
+Wire Wire Line
+	5200 1900 5150 1850
+Wire Wire Line
+	5150 1850 5150 1250
+Wire Wire Line
+	5150 1250 6550 1250
+Wire Wire Line
+	6550 1250 6550 1300
+Wire Wire Line
+	6550 1500 6550 1600
+Connection ~ 6550 1600
+Wire Wire Line
+	6550 1600 7000 1600
+Wire Wire Line
+	6550 1250 7300 1250
+Connection ~ 6550 1250
+Text Label 6550 1250 0    50   ~ 0
+PWR_GOOD
+Text Notes 850  850  0    50   ~ 0
+Note: Calculate Power Network from datasheet.  Values shown are for 1.8V not 3.3V
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3AC802
+P 1300 1850
+F 0 "R?" H 1368 1896 50  0000 L CNN
+F 1 "100k" H 1368 1805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1300 1850 50  0001 C CNN
+F 3 "~" H 1300 1850 50  0001 C CNN
+	1    1300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E3AD8A5
+P 1300 2450
+F 0 "#PWR0108" H 1300 2200 50  0001 C CNN
+F 1 "GND" H 1305 2277 50  0000 C CNN
+F 2 "" H 1300 2450 50  0001 C CNN
+F 3 "" H 1300 2450 50  0001 C CNN
+	1    1300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3ADA5C
+P 1300 2150
+F 0 "R?" H 1368 2196 50  0000 L CNN
+F 1 "100k" H 1368 2105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1300 2150 50  0001 C CNN
+F 3 "~" H 1300 2150 50  0001 C CNN
+	1    1300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1600 1300 1600
+Wire Wire Line
+	1300 1750 1300 1600
+Wire Wire Line
+	1300 2050 1300 2000
+Wire Wire Line
+	1300 2450 1300 2250
+Wire Wire Line
+	1300 2000 800  2000
+Connection ~ 1300 2000
+Wire Wire Line
+	1300 2000 1300 1950
+Text Label 800  2000 0    50   ~ 0
+VBAT_MON
+$Comp
+L Transistor_BJT:BC857BS Q?
+U 2 1 5E3BC95B
+P 2450 2200
+F 0 "Q?" H 2641 2154 50  0000 L CNN
+F 1 "BC857BS" H 2641 2245 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2650 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 2450 2200 50  0001 C CNN
+	2    2450 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC857BS Q?
+U 1 1 5E3C066C
+P 3250 2200
+F 0 "Q?" H 3440 2154 50  0000 L CNN
+F 1 "BC857BS" H 3440 2245 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 3450 2300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRLML6402TRPBF Q?
+U 1 1 5E3C2321
+P 2800 1600
+F 0 "Q?" V 3067 1600 60  0000 C CNN
+F 1 "IRLML6402TRPBF" V 2961 1600 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 3000 1800 60  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3000 1900 60  0001 L CNN
+F 4 "IRLML6402PBFCT-ND" H 3000 2000 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRLML6402TRPBF" H 3000 2100 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 3000 2200 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 3000 2300 60  0001 L CNN "Family"
+F 8 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 3000 2400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/infineon-technologies/IRLML6402TRPBF/IRLML6402PBFCT-ND/812500" H 3000 2500 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET P-CH 20V 3.7A SOT-23" H 3000 2600 60  0001 L CNN "Description"
+F 11 "Infineon Technologies" H 3000 2700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3000 2800 60  0001 L CNN "Status"
+	1    2800 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 2200 2750 2200
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3C68A3
+P 2350 2600
+F 0 "R?" H 2418 2646 50  0000 L CNN
+F 1 "100k" H 2418 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 2350 2600 50  0001 C CNN
+F 3 "~" H 2350 2600 50  0001 C CNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5E3C7F62
+P 3350 2600
+F 0 "R?" H 3418 2646 50  0000 L CNN
+F 1 "100k" H 3418 2555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3350 2600 50  0001 C CNN
+F 3 "~" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E3C83FB
+P 2350 2750
+F 0 "#PWR0109" H 2350 2500 50  0001 C CNN
+F 1 "GND" H 2355 2577 50  0000 C CNN
+F 2 "" H 2350 2750 50  0001 C CNN
+F 3 "" H 2350 2750 50  0001 C CNN
+	1    2350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E3C86DB
+P 3350 2750
+F 0 "#PWR0110" H 3350 2500 50  0001 C CNN
+F 1 "GND" H 3355 2577 50  0000 C CNN
+F 2 "" H 3350 2750 50  0001 C CNN
+F 3 "" H 3350 2750 50  0001 C CNN
+	1    3350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1600 2350 1600
+Connection ~ 1300 1600
+Wire Wire Line
+	3000 1600 3350 1600
+Wire Wire Line
+	2350 2000 2350 1600
+Connection ~ 2350 1600
+Wire Wire Line
+	2350 1600 2600 1600
+Wire Wire Line
+	3350 2000 3350 1600
+Connection ~ 3350 1600
+Wire Wire Line
+	3350 1600 4100 1600
+Wire Wire Line
+	2900 1900 2900 2400
+Wire Wire Line
+	2900 2400 2950 2450
+Wire Wire Line
+	2950 2450 3350 2450
+Wire Wire Line
+	3350 2450 3350 2400
+Wire Wire Line
+	3350 2500 3350 2450
+Connection ~ 3350 2450
+Wire Wire Line
+	2350 2500 2350 2450
+Wire Wire Line
+	2350 2450 2700 2450
+Wire Wire Line
+	2700 2450 2750 2400
+Wire Wire Line
+	2750 2400 2750 2200
+Connection ~ 2350 2450
+Wire Wire Line
+	2350 2450 2350 2400
+Connection ~ 2750 2200
+Wire Wire Line
+	2750 2200 3050 2200
+Wire Wire Line
+	2350 2750 2350 2700
+Wire Wire Line
+	3350 2750 3350 2700
+$Comp
+L Diode:MBR0580 D?
+U 1 1 5E3CE7DB
+P 4100 1300
+F 0 "D?" V 4146 1221 50  0000 R CNN
+F 1 "MBR0580" V 4055 1221 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4100 1125 50  0001 C CNN
+F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 4100 1300 50  0001 C CNN
+	1    4100 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1450 4100 1600
+Connection ~ 4100 1600
+Wire Wire Line
+	4100 1150 4100 1000
+Wire Wire Line
+	4100 1000 4150 950 
+Wire Wire Line
+	4150 950  4600 950 
+Text Label 4150 950  0    50   ~ 0
+VUSB
+$Comp
+L Device:C_Small C?
+U 1 1 5E3D1D33
+P 4600 1200
+F 0 "C?" H 4692 1246 50  0000 L CNN
+F 1 "10uF" H 4692 1155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4600 1200 50  0001 C CNN
+F 3 "~" H 4600 1200 50  0001 C CNN
+	1    4600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E3D2344
+P 4950 1200
+F 0 "C?" H 5042 1246 50  0000 L CNN
+F 1 "10uF" H 5042 1155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4950 1200 50  0001 C CNN
+F 3 "~" H 4950 1200 50  0001 C CNN
+	1    4950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 950  4600 1100
+Connection ~ 4600 950 
+Wire Wire Line
+	4600 950  4950 950 
+$Comp
+L power:GND #PWR0111
+U 1 1 5E3D463A
+P 4600 1350
+F 0 "#PWR0111" H 4600 1100 50  0001 C CNN
+F 1 "GND" H 4605 1177 50  0000 C CNN
+F 2 "" H 4600 1350 50  0001 C CNN
+F 3 "" H 4600 1350 50  0001 C CNN
+	1    4600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5E3D4B36
+P 4950 1300
+F 0 "#PWR0112" H 4950 1050 50  0001 C CNN
+F 1 "GND" H 4955 1127 50  0000 C CNN
+F 2 "" H 4950 1300 50  0001 C CNN
+F 3 "" H 4950 1300 50  0001 C CNN
+	1    4950 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1100 4950 950 
+Connection ~ 4950 950 
+Wire Wire Line
+	4950 950  5900 950 
+Wire Wire Line
+	4950 1350 4950 1300
+Wire Wire Line
+	4600 1350 4600 1300
+Connection ~ 4950 1300
+Connection ~ 6550 1300
+Wire Wire Line
+	6550 1300 6550 1350
+Wire Wire Line
+	4100 1600 4950 1600
+$EndSCHEMATC

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 503182-1852-503182-1852-SapphineMinimal-rescue
+F Molex
+$ENDCMP
+#
+$CMP IRLML6402TRPBF-dk_Transistors-FETs-MOSFETs-Single-SapphineMinimal-rescue
+F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
+$ENDCMP
+#
+#End Doc Library

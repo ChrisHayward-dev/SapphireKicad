@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ32000
+D Serial, I2C Real-time clock, Trickle charger, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32000.pdf
+$ENDCMP
+#
+$CMP BQ32002
+D Serial, I2C Real-time clock, 3V to 3.6V VCC, -40°C to +85°C, SOIC-8
+K RTC, I2C Timekeeping Chip
+F http://www.ti.com/lit/ds/symlink/bq32002.pdf
+$ENDCMP
+#
+$CMP CAM-M8C-0-10
+D RF RCVR GNSS/GPS 1.575GHZ MODULE
+K 672-CAM-M8C-0-10CT-ND CAM-M8
+F https://www.u-blox.com/sites/default/files/CAM-M8-FW3_DataSheet_%28UBX-15031574%29.pdf
+$ENDCMP
+#
+$CMP DLHR-F50D-E1BD-C-NAV8
+D Board Mount Pressure Sensors Low Voltage Digital Pressure Sensor, 0.5 inH2O
+F https://www.mouser.mx/datasheet/2/18/DS-0350_Rev_B-1499216.pdf
+$ENDCMP
+#
+$CMP DS3231S
+D Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16
+K RTC TCXO Realtime Time Clock Crystal Oscillator I2C
+F http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+$ENDCMP
+#
+#End Doc Library
